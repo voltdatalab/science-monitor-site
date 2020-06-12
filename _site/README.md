@@ -1,2 +1,1 @@
-# science-monitor-site
- 
+# Science monitor website
