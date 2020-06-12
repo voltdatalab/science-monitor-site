@@ -1,0 +1,12 @@
+# Site settings
+title: Science Monitor
+email: info@voltdata.info
+description: "The bridge beetween journalists and scientist"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username: icfj
+github_username: voltdatalab
+
+# Build settings
+markdown: kramdown
