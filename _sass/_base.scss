@@ -71,7 +71,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: transparent;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -109,7 +109,7 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
+        background-color: #4b31dd;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
@@ -329,7 +329,7 @@ header {
 // Contact
 #contact .fa {
     color: $theme-dark;
-    font-size: 4em;
+    font-size: 2.5em;
 }
 
 // Extras
