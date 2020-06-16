@@ -10,7 +10,7 @@ body {
 }
 
 hr {
-    border-color: $theme-primary;
+    border-color: #2eefa0;
     border-width: 3px;
     max-width: 50px;
 }
@@ -35,6 +35,23 @@ h4,
 h5,
 h6 {
     font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
+
+h2{
+  margin: 40px 0 10px
+}
+
+h3{
+  color: #231f20;
+  font-size: 1.2em;
+}
+
+h4{
+  color: #c7254e;
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 0px;
 }
 
 p {
@@ -60,6 +77,12 @@ section {
     padding: 100px 0;
 }
 
+#contact {
+    padding: 30px 0 50px;
+    background-color: #4b31dd;
+    color: #fff
+}
+
 aside {
     padding: 50px 0;
 }
@@ -72,11 +95,11 @@ aside {
 
 .navbar-default {
     background-color: transparent;
-    border-color: rgba($theme-dark, .5);
+    border-color: rgba($theme-dark, 0);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: #fff !important;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -91,15 +114,15 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 18px;
+                color: #fff !important;
                 &:hover {
-                    color: $theme-primary;
+                    color: #4b31dd;
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: $theme-primary !important;
+                    color: #4b31dd !important;
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
@@ -109,8 +132,9 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: #4b31dd;
-        border-color: rgba(white, .3);
+        background-color: transparent;
+        /*background-image: url('../img/nav.png');*/
+        /*border-color: rgba(white, .3);*/
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
             &:hover,
@@ -126,19 +150,19 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
-            border-color: rgba($theme-dark, .5);
+            background-color: #4b31dd !important;;
+            /*border-color: rgba($theme-dark, .5);*/
             .navbar-header .navbar-brand {
-                color: $theme-primary;
+                color: #fff !important;
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 10%);
+                    color: #fff;
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: #fff !important;
                 &:hover {
                     color: $theme-primary;
                 }
@@ -328,7 +352,7 @@ header {
 
 // Contact
 #contact .fa {
-    color: $theme-dark;
+    color: #fff;
     font-size: 2.5em;
 }
 
