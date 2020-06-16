@@ -4,6 +4,8 @@ body { font-family: 'Barlow', sans-serif; font-size: 16px; }
 
 hr { border-color: #2eefa0; border-width: 3px; max-width: 50px; }
 
+::placeholder { color: #fff; text-align: center; }
+
 hr.light { border-color: white; }
 
 a { -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; color: #4b31dd; }

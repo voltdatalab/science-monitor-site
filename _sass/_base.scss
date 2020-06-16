@@ -15,6 +15,11 @@ hr {
     max-width: 50px;
 }
 
+::placeholder{
+  color: #fff;
+  text-align: center;
+}
+
 hr.light {
     border-color: white;
 }
