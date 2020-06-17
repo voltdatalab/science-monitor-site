@@ -1,5 +1,4 @@
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,5 +21,57 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="science, data journalism, journalism, covid19, covid-19, coronavirus"/>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{{site.baseurl}}/css/landing-page.css" rel="stylesheet">
+
+    <meta property="og:site_name" content="Science Pulse">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Science Pulse{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}A bridge between science and journalism on social media{% endif %}" />
+
+    <!-- FACEBOOK -->
+    <meta property="og:image" content="{% if page.background %}https://sciencepulse.org/img/{{ page.background }}{% else %}https://raw.githubusercontent.com/voltdatalab/science-monitor-site/master/img/social.jpg?token=ADHW5HU3WO7ZYKQEAPAPN6C66KU6U{% endif %}" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Whatsapp -->
+    <meta property="og:image" content="{% if page.background %}https://sciencepulse.org/img/{{ page.background }}{% else %}https://raw.githubusercontent.com/voltdatalab/science-monitor-site/master/img/social.jpg?token=ADHW5HU3WO7ZYKQEAPAPN6C66KU6U{% endif %}" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@nucleojor" />
+    <meta name="twitter:creator" content="@nucleojor" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Science Pulse{% endif %}" />
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}A bridge between science and journalism on social media{% endif %}" />
+    <meta name="twitter:image" content="{% if page.background %}https://nucleo.jor.br/img/{{ page.background }}{% else %}https://nucleo.jor.br/img/landing-nucleo_facebook-header_f.png{% endif %}" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169741376-1"> </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-169741376-1');
+    </script>
 
 </head>

@@ -4,6 +4,7 @@ email: info@voltdata.info
 description: "The bridge beetween journalism and science in social media"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+author: "@sergiospagnuolo"
 
 twitter_username: icfj
 github_username: voltdatalab
