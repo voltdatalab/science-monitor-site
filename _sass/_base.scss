@@ -84,7 +84,7 @@ section {
 
 #contact {
     padding: 30px 0 50px;
-    background-color: #4b31dd;
+    background-color: #d91c5c;
     color: #fff
 }
 
@@ -104,7 +104,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: #fff !important;
+        color: #d91c5c !important;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -119,16 +119,16 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                color: #fff !important;
+                color: #d91c5c !important;
                 &:hover {
-                    color: #4b31dd;
+                    color: #1cd999;
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: #4b31dd !important;
-                    background-color: transparent;
+                    color: #d91c5c !important;
+                    background-color: #fff;
                     &:hover {
                         background-color: transparent;
                     }
@@ -137,39 +137,39 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
+        background-color: #fff;
         /*background-image: url('../img/nav.png');*/
         /*border-color: rgba(white, .3);*/
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: #d91c5c;
             &:hover,
             &:focus {
-                color: white;
+                color: #d91c5c;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: #d91c5c;
             &:hover {
-                color: white;
+                color: #1cd999;
             }
         }
         &.affix {
-            background-color: #4b31dd !important;;
-            /*border-color: rgba($theme-dark, .5);*/
+            background-color: #fff !important;;
+            border-color: #d91c5c;
             .navbar-header .navbar-brand {
-                color: #fff !important;
+                color: #d91c5c !important;
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: #fff;
+                    color: #d91c5c;
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: #fff !important;
+                color: #d91c5c !important;
                 &:hover {
-                    color: $theme-primary;
+                    color: #1cd999;
                 }
             }
         }
@@ -183,15 +183,15 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: top;
+    background-position: center;
     /*background: url('../img/header.jpg') rgba(0, 0, 0, 0.1);*/
     background-image:
     linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
     ),
-    url('../img/header.jpg');
-    background-size: cover !important;
+    url('../img/header_red.jpeg');
+    background-size: 100% !important;
     background-blend-mode: multiply;
     text-align: center;
     color: white;
@@ -206,7 +206,9 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                color: #fff;
+                background: rgba(255,255,255,0.8);
+                color: #231f20;
+                display: inline;
                 text-shadow: white 0px 0px 1px;
             }
             hr {
@@ -214,8 +216,10 @@ header {
             }
             p {
                 font-weight: 400;
-                color: #fff;
+                color: #231f20;
                 text-shadow: white 0px 0px 1px;
+                background: rgba(255,255,255,0.8);
+                display: inline;
                 font-size: 24px !important;
                 margin-bottom: 50px;
             }

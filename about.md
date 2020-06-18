@@ -1,5 +1,6 @@
 ---
 layout: pages
+title: About us
 last_update: "June 18, 2020"
 ---
 

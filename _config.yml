@@ -3,10 +3,10 @@ title: Science Monitor
 email: info@voltdata.info
 description: "The bridge beetween journalism and science in social media"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-author: "@sergiospagnuolo"
+url: "https://sciencepulse.org" # the base hostname & protocol for your site
+author: "@voltdatalab"
 
-twitter_username: icfj
+twitter_username: thesciencepulse
 github_username: voltdatalab
 
 # Build settings
