@@ -50,6 +50,7 @@ h2{
 h3{
   color: #231f20;
   font-size: 1.2em;
+  margin: 40px 0 10px
 }
 
 h4{
@@ -59,9 +60,15 @@ h4{
   margin-bottom: 0px;
 }
 
+h5{
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
 p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5em;
     margin-bottom: 20px;
 }
 
@@ -99,7 +106,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: transparent;
+    background-color: #fff;
     border-color: rgba($theme-dark, 0);
     @include sans-serif-font;
     @include transition-all;
@@ -110,7 +117,7 @@ aside {
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: #d91c5c;
         }
     }
     .nav {
@@ -138,7 +145,6 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: #fff;
-        /*background-image: url('../img/nav.png');*/
         /*border-color: rgba(white, .3);*/
         .navbar-header .navbar-brand {
             color: #d91c5c;

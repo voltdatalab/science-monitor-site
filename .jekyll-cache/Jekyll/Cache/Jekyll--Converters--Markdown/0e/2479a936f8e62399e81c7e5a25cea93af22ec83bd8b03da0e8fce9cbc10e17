@@ -1,4 +1,8 @@
-I"º<h2 id="why-is-this-relevant">WHY IS THIS RELEVANT?</h2>
+I"<h2 id="about">ABOUT</h2>
+
+<p>In very few words: the <strong>Science Pulse</strong> is a social listening tool designed to bridge the gap between journalists and scientists within social media platforms.</p>
+
+<h2 id="why-is-this-relevant">WHY IS THIS RELEVANT?</h2>
 
 <p>Scientists and journalists have a longstanding record of collaboration. But, as social media creates its own hard-to burst bubbles, sometimes a bridge is necessary to bring awareness about each otherâ€™s conversations. Journalists can benefit a lot from knowing what scientists and experts are sharing on social media.</p>
 
@@ -8,7 +12,7 @@
 
 <p>That is why we decided to make a tool to increase the discovery around the scientific conversation on social media, especially regarding the coronavirus pandemic. It is a way to increase knowledge but also leave some noise out of social media. We will give room for people that are brilliant in their fields, but might not have thousands of followers to engage.</p>
 
-<h2 id="our-sponsors">OUR SPONSORS</h2>
+<h2 id="about-1">ABOUT</h2>
 
 <p>The <strong>Science Pulse</strong> is sponsored by the <a href="https://icfj.org/">International Center for Journalists</a> with support from the <a href="https://knightfoundation.org/">Knight Foundation</a>, under the <a href="https://www.icfj.org/our-work/knight/icfj-knight-fellowships">Knight Fellowship</a> program. The project is developed by the data-driven agency <a href="https://voltdata.info/">Volt Data Lab</a>, which is owned by the current fellow.</p>
 
@@ -45,7 +49,7 @@ Political scientist and data analyst at Volt Data Lab</p>
 
 <h4 id="data-collection">DATA COLLECTION</h4>
 
-<p>New posts in social media are collected constantly. People are entitled to change their minds and their position around certain topics, and, to maintain the privacy of the profiles in our database regarding older content, we only disclose up to the latest 50,000 posts published or shared by those users.</p>
+<p>New posts in social media are collected constantly. People are entitled to change their minds and their position around certain topics, and, to maintain the privacy of the profiles in our database regarding older content, we only disclose up to the latest 30,000 posts published or shared by those users.</p>
 
 <p>Our database is updated with new tweets and counts every 15 minutes, in respect to Twitters free API limits.</p>
 

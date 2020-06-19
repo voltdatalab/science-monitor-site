@@ -2,10 +2,12 @@
 layout: pages
 title: About us
 last_update: "June 18, 2020"
+description: "In very few words: <strong>Science Pulse</strong> is a social listening tool designed to bridge the gap between journalists and scientists within social media platforms. The main goal is to help journalists find trending scientific content."
+social_description: "The Science Pulse is a social listening tool designed to bridge the gap between journalists and scientists on social media."
+main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 ---
 
-
-## WHY IS THIS RELEVANT?
+### WHY IS THIS RELEVANT?
 
 Scientists and journalists have a longstanding record of collaboration. But, as social media creates its own hard-to burst bubbles, sometimes a bridge is necessary to bring awareness about each other's conversations. Journalists can benefit a lot from knowing what scientists and experts are sharing on social media.
 
@@ -15,13 +17,13 @@ It is hard to keep up with all social media has to offer nowadays, and even hard
 
 That is why we decided to make a tool to increase the discovery around the scientific conversation on social media, especially regarding the coronavirus pandemic. It is a way to increase knowledge but also leave some noise out of social media. We will give room for people that are brilliant in their fields, but might not have thousands of followers to engage.
 
-## OUR SPONSORS
+### ABOUT
 
 The **Science Pulse** is sponsored by the [International Center for Journalists](https://icfj.org/) with support from the [Knight Foundation](https://knightfoundation.org/), under the [Knight Fellowship](https://www.icfj.org/our-work/knight/icfj-knight-fellowships) program. The project is developed by the data-driven agency [Volt Data Lab](https://voltdata.info/), which is owned by the current fellow.
 
 Brazilian science journalism agency [Bori](https://abori.com.br/) is our partner in this venture, helping us to make sense of the technology and the information we gathered.  
 
-## TEAM
+### TEAM
 
 #### Sérgio Spagnuolo
 [<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/sergiospagnuolo) - [sspagnuolo@icfj.org](mailto:sspagnuolo@icfj.org)<br>
@@ -37,7 +39,7 @@ Political scientist and data analyst at Volt Data Lab
 
 
 
-## METHODOLOGY
+### METHODOLOGY
 
 #### PROFILE COLLECTION
 All the profiles of scientists, experts, physicians, organisations and scientific initiatives were compiled by Pulse's development team through a number of methods, and where based on the biographies displayed in their profiles at the time of collection.
@@ -49,6 +51,8 @@ We found those profiles mostly through three ways:
 3. Consulting Twitter lists of scientists made by universities and journalists.
 
 Anyone can suggest a new profile to include in our platform through [this form](https://docs.google.com/forms/d/e/1FAIpQLSfGk8fYdAtAcyMuddZHqJDHYuTYn0o6i5dSrPzB__0HeggLhQ/viewform).
+
+If you are a scientist or expert with a profile mapped by this tool, you can ask us to be left out. Send an email to [sciencemonitor@icfj.org](mailto:sciencemonitor@icfj.org).
 
 #### DATA COLLECTION
 
