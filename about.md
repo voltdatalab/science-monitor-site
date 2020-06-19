@@ -37,7 +37,7 @@ Political scientist and data analyst at Volt Data Lab
 
 #### Rodolfo Almeida
 [<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/rodolfoalmd) - [info@voltdata.info](mailto:info@voltdata.info)<br>
-Political scientist and data analyst at Volt Data Lab
+Designer
 
 
 
