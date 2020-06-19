@@ -69,6 +69,7 @@ Link to privacy policy of third party service providers used by the app
 *   [Google Analytics](https://policies.google.com/privacy?hl=en-US)
 *   [Amazon Web Services](https://aws.amazon.com/pinpoint/data-privacy-compliance-faq/)
 *   [Twitter](https://twitter.com/en/privacy)
+*   [Hotjar](https://www.hotjar.com/legal/policies/privacy/)
 
 **Log Data**
 
