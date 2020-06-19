@@ -4,15 +4,22 @@ title: About us
 last_update: "June 18, 2020"
 ---
 
-## ABOUT
 
-Scientists and journalists have a longstanding record of collaboration. But, as social media creates its own hard-to burst bubbles, sometimes a bridge is necessary to bring the two sides into the same conversation.
+## WHY IS THIS RELEVANT?
 
-The **Science Pulse** wants to be that bridge. In a time where scientific knowledge is in great demand, there are also great challenges around the way academic papers and preliminary conclusions are communicated. And it is hard to keep up with social media nowadays, and even harder to follow hundreds of people, even if you are interested in what they have to say.
+Scientists and journalists have a longstanding record of collaboration. But, as social media creates its own hard-to burst bubbles, sometimes a bridge is necessary to bring awareness about each other's conversations. Journalists can benefit a lot from knowing what scientists and experts are sharing on social media.
 
-That is why we decided to make a tool to increase the discovery around the scientific conversation on social media, especially regarding the coronavirus pandemic.
+The **Science Pulse** wants to be that bridge. In a time where scientific knowledge is in great demand, there are also great challenges around the way academic papers and preliminary conclusions are communicated. Data and, thus, conclusions can change fast.
 
-The **Science Pulse** is sponsored by the [International Center for Journalists](https://icfj.org/) with support from the [Knight Foundation](https://knightfoundation.org/), under the [Knight Fellowship](https://www.icfj.org/our-work/knight/icfj-knight-fellowships) program. The project is developed by the data-driven agency [Volt Data Lab](https://voltdata.info/).
+It is hard to keep up with all social media has to offer nowadays, and even harder to follow hundreds of new people, even if you are interested in what they have to say. And even if you do follow them, some messages will be bury amongst hundreds of other posts and trending topics.
+
+That is why we decided to make a tool to increase the discovery around the scientific conversation on social media, especially regarding the coronavirus pandemic. It is a way to increase knowledge but also leave some noise out of social media. We will give room for people that are brilliant in their fields, but might not have thousands of followers to engage.
+
+## OUR SPONSORS
+
+The **Science Pulse** is sponsored by the [International Center for Journalists](https://icfj.org/) with support from the [Knight Foundation](https://knightfoundation.org/), under the [Knight Fellowship](https://www.icfj.org/our-work/knight/icfj-knight-fellowships) program. The project is developed by the data-driven agency [Volt Data Lab](https://voltdata.info/), which is owned by the current fellow.
+
+Brazilian science journalism agency [Bori](https://abori.com.br/) is our partner in this venture, helping us to make sense of the technology and the information we gathered.  
 
 ## TEAM
 
@@ -45,7 +52,7 @@ Anyone can suggest a new profile to include in our platform through [this form](
 
 #### DATA COLLECTION
 
-New posts in social media are collected constantly. People are entitled to change their minds and their position around certain topics, and, to maintain the privacy of the profiles in our database regarding older content, we only disclose up to the latest 50,000 posts published or shared by those users.
+New posts in social media are collected constantly. People are entitled to change their minds and their position around certain topics, and, to maintain the privacy of the profiles in our database regarding older content, we only disclose up to the latest 30,000 posts published or shared by those users.
 
 Our database is updated with new tweets and counts every 15 minutes, in respect to Twitters free API limits.
 

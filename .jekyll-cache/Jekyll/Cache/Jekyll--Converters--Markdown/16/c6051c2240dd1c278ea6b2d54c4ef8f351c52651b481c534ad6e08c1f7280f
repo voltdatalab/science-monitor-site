@@ -1,9 +1,4 @@
----
-layout: app
-title: App
----
-
-The **Science Pulse** is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms. <a class="button" href="#popup1">Click here for important notes.</a>
+I"<p>The <strong>Science Pulse</strong> is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms. <a class="button" href="#popup1">Click here for important notes.</a></p>
 
 <div id="popup1" class="overlay">
 	<div class="popup">
@@ -11,14 +6,19 @@ The **Science Pulse** is a free tool designed to bridge the gap between the disc
 		<a class="close" href="#">&times;</a>
 		<div class="content">
 As a data exploratory tool, it is better suited to work on desktop computers, but it also works on mobile. For now, we have only data from Twitter, but we are working to get access to data to create other modules, especially one for Facebook.
-<br><br>
+<br /><br />
 We would really appreciate any feedback or comments about your experience using this tool, it can help us make a better resource for all. The best way for that is through <a href="https://forms.gle/gtc9YBH8cHFw8ACJA" target="_blank">this short, six-question form</a>.
-<br><br>
+<br /><br />
 To suggest a new profile to be included in our platform, use <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGk8fYdAtAcyMuddZHqJDHYuTYn0o6i5dSrPzB__0HeggLhQ/viewform" target="_blank">this form</a>.
-<br><br>
+<br /><br />
 For any other inquiries, reach us at <a href="mailto:sciencemonitor@icfj.org" target="_blank">sciencemonitor@icfj.org</a>.
-<br><br>
-For the methodology <a href="../about" target="_blank">click here</a>.
+
+<h3>DATA COLLECTION</h3>
+
+New posts in social media are collected constantly. People are entitled to change their minds and their position around certain topics, and, to maintain the privacy of the profiles in our database regarding older content, we only disclose up to the latest 30,000 posts published or shared by those users.
+
+Our database is updated with new tweets and counts every 15 minutes, in respect to Twitters free API limits.
+
 		</div>
 	</div>
 </div>
@@ -100,3 +100,5 @@ For the methodology <a href="../about" target="_blank">click here</a>.
   }
 }
 <style>
+</style>
+:ET
