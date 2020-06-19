@@ -1,0 +1,22 @@
+I"r<form style="border:0px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/sciencemonitor" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/sciencemonitor', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed" /><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+
+<h3 id="privacy-policy">PRIVACY POLICY</h3>
+
+<ul>
+  <li>
+    <p>Your email will only be used for communication sent by the Science Monitor or Volt Data Lab;</p>
+  </li>
+  <li>
+    <p>We will not sell your email information to anyone, but we could share your email address with our non-profit partners;</p>
+  </li>
+  <li>
+    <p>We will not send you spam;</p>
+  </li>
+  <li>
+    <p>We might integrate your email to other newsletters owned by Volt Data Lab;</p>
+  </li>
+  <li>
+    <p>We promise to treat your information with zeal.</p>
+  </li>
+</ul>
+:ET

@@ -23,6 +23,8 @@ The **Science Pulse** is sponsored by the [International Center for Journalists]
 
 Brazilian science journalism agency [Bori](https://abori.com.br/) is our partner in this venture, helping us to make sense of the technology and the information we gathered.  
 
+You can find our privacy policy and license [in this link](../privacy).
+
 ### TEAM
 
 #### Sérgio Spagnuolo

@@ -19,6 +19,8 @@ To suggest a new profile to be included in our platform, use <a href="https://do
 For any other inquiries, reach us at <a href="mailto:sciencemonitor@icfj.org" target="_blank">sciencemonitor@icfj.org</a>.
 <br><br>
 For the methodology <a href="../about" target="_blank">click here</a>.
+
+You can find our privacy policy and license <a href="../privacy" target="_blank">in this link</a>.
 		</div>
 	</div>
 </div>
