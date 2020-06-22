@@ -1,6 +1,6 @@
 ---
 layout: app
-title: App
+title: Science Pulse App
 ---
 
 The **Science Pulse** is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms. <a class="button" href="#popup1">Click here for important notes.</a>
