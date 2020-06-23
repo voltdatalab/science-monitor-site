@@ -12,19 +12,21 @@ _In this page you can see detailed privacy policy and the licence of our product
 
 #### ABOUT EMAIL  
 
-- If you choose to subscribe to our newsletter, your email will only be used for communication sent by the Science Monitor or [Volt Data Lab](www.voltdata.info);
+- If you choose to subscribe to our newsletter, your email will only be used for communication sent by the Science Pulse or [Volt Data Lab](www.voltdata.info);
 
 - We will not sell your email information to anyone, but we could share your email address with trusted partners;
 
-- We will not send you spam;
+- We will not send you spam or harmful content;
 
-- We might integrate your email to other newsletters owned by Volt Data Lab;
+- We might integrate your email to other newsletters owned by Volt Data Lab, for strategic reasons;
 
-- We promise to treat your information with zeal.
+- We promise, within our power, to treat your information with zeal.
 
 #### ABOUT OUR TECH
 
 - We use Google Analytics to measure audience in our website;
+
+- We use Hotjar to measure how people interact with our pages;
 
 - We use Sendy/AWS to send newsletters;
 
@@ -37,6 +39,8 @@ _In this page you can see detailed privacy policy and the licence of our product
 - We use Shinyapps (from Rstudio) to host the application.
 
 **Note: although we DO NOT ourselves want to collect extensive data about anonymous users, we are aware that some of the services we use might do that.**
+
+In case you want to avoid that, you can use browsers that block certain tracking codes, like [Tor](https://www.torproject.org/download/) and [Brave](https://brave.com/), as well as browser extentions like [Ghostery](https://chrome.google.com/webstore/detail/ghostery-%E2%80%93-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij), [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en) and [Disconnect](https://chrome.google.com/webstore/detail/disconnect/jeoacafpbcihiomhlakheieifhpjdfeo?hl=en).
 
 <hr>
 

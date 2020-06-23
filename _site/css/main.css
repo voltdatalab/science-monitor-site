@@ -135,6 +135,8 @@ header .header-content .header-content-inner p { font-weight: 400; color: #231f2
 
 #contact .fa { color: #fff; font-size: 2.5em; }
 
+input { background: #d91c5c !important; border: none; }
+
 ::-moz-selection { color: white; text-shadow: none; background: #231f20; }
 
 ::selection { color: white; text-shadow: none; background: #231f20; }

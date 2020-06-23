@@ -1,0 +1,123 @@
+I".<div class="tabset">
+  <!-- Tab 1 -->
+  <input type="radio" name="tabset" id="tab1" aria-controls="pt" checked="" />
+  <label for="tab1">Português</label>
+  <!-- Tab 2 -->
+  <input type="radio" name="tabset" id="tab2" aria-controls="en" />
+  <label for="tab2">English</label>
+
+  <div class="tab-panels">
+    <section id="marzen" class="tab-panel">
+      <h2>Newsletter em português</h2>
+      <p>Assine nossa newsletter em português e fique por dentro</p>
+
+      <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
+      	<label for="name">Name</label><br />
+      	<input type="text" name="name" id="name" />
+      	<br />
+      	<label for="email">Email</label><br />
+      	<input type="email" name="email" id="email" /><br /><div style="display:none;">
+      	<label for="hp">HP</label><br />
+      	<input type="text" name="hp" id="hp" />
+      	</div>
+      	<input type="hidden" name="list" value="5TonLbm3gUgEIfhUtKpeZw" />
+      	<input type="hidden" name="subform" value="yes" />
+      	<input type="submit" name="submit" id="submit" />
+      </form>
+      <br /><br />
+      <p>O uso de seus dados é regido pelo nossa <a href="privacidade">política de privacidade</a>.</p>
+      <p>Veja abaixo os principais pontos cobertos por essa política:</p>
+      <ul>
+      <li>Caso você escolha assinar nossa newsletter, seu email será usado somente para comunicação enviada pelo Science Pulse ou pelo Volt Data Lab;</li>
+      <li>Nós não venderemos seu endereço de email para ninguém, mas reservamos o direito de compartilhá-lo com certos parceiros de nossa confiança;</li>
+      <li>Não enviaremos, de forma nenhuma, spam ou conteúdo nocivo para você;</li>
+      <li>Por questões estratégicas, podemos integrar seu email a outras newsletters do Volt Data Lab; você será avisado disso;</li>
+      <li>Fazemos um compromisso de tratar sua informação com zelo, dentro dos nossos poderes.</li>
+      </ul>
+  </section>
+    <section id="rauchbier" class="tab-panel">
+      <h2>English newsletter</h2>
+      <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
+        	<label for="name">Nome</label><br />
+        	<input type="text" name="name" id="name" />
+        	<br />
+        	<label for="email">Email</label><br />
+        	<input type="email" name="email" id="email" /><br /><div style="display:none;">
+        	<label for="hp">HP</label><br />
+        	<input type="text" name="hp" id="hp" />
+        	</div>
+        	<input type="hidden" name="list" value="6djKUj7CbeJC4AEVZqGRLQ" />
+        	<input type="hidden" name="subform" value="yes" />
+        	<input type="submit" name="submit" id="submit" />
+        </form>
+    </section>
+  </div>
+
+</div>
+
+<style>
+/*
+ CSS for the main interaction
+*/
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background: #8d8d8d;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+  color: #06c;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: #d91c5c;
+}
+
+.tabset > input:checked + label {
+  border-color: #000;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+
+.tab-panel {
+  padding: 30px 0;
+  border-top: 1px solid #ccc;
+}
+</style>
+
+:ET
