@@ -1,35 +1,28 @@
----
-layout: pages
-title: Pulse - Newsletter
-description: "Stay tuned for news about us, reports and more."
-social_description: "Stay tuned for news about us, reports and more."
----
-
-<div class="tabset">
+I"�<div class="tabset">
   <!-- Tab 1 -->
-  <input type="radio" name="tabset" id="tab1" aria-controls="pt" checked>
+  <input type="radio" name="tabset" id="tab1" aria-controls="pt" checked="" />
   <label for="tab1">Português</label>
   <!-- Tab 2 -->
-  <input type="radio" name="tabset" id="tab2" aria-controls="en">
+  <input type="radio" name="tabset" id="tab2" aria-controls="en" />
   <label for="tab2">English</label>
 
   <div class="tab-panels">
     <section id="marzen" class="tab-panel">
       <h2>Newsletter em português</h2>
       <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
-      	<label for="name">Nome</label><br/>
-      	<input type="text" name="name" id="name"/>
-      	<br/>
-      	<label for="email">Email</label><br/>
-      	<input type="email" name="email" id="email"/><br/><div style="display:none;">
-      	<label for="hp">HP</label><br/>
-      	<input type="text" name="hp" id="hp"/>
+      	<label for="name">Nome</label><br />
+      	<input type="text" name="name" id="name" />
+      	<br />
+      	<label for="email">Email</label><br />
+      	<input type="email" name="email" id="email" /><br /><div style="display:none;">
+      	<label for="hp">HP</label><br />
+      	<input type="text" name="hp" id="hp" />
       	</div>
-      	<input type="hidden" name="list" value="5TonLbm3gUgEIfhUtKpeZw"/>
-      	<input type="hidden" name="subform" value="yes"/><br>
-      	<input class="botao" type="submit" name="submit" id="submit" value="Assinar" style="background-color:#fff !important;border:1px solid #231f20;color:#231f20"/>
+      	<input type="hidden" name="list" value="5TonLbm3gUgEIfhUtKpeZw" />
+      	<input type="hidden" name="subform" value="yes" /><br />
+      	<input class="botao" type="submit" name="submit" id="submit" value="Assinar" style="background-color:#fff !important;border:1px solid #231f20;color:#231f20" />
       </form>
-      <br/>
+      <br />
       <p>O uso de seus dados é regido pelo nossa <a href="privacidade">política de privacidade</a>.</p>
       <p>Veja abaixo os principais pontos cobertos por essa política:</p>
       <ul>
@@ -43,19 +36,19 @@ social_description: "Stay tuned for news about us, reports and more."
     <section id="rauchbier" class="tab-panel">
       <h2>Newsletter in English</h2>
       <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
-        	<label for="name">Name</label><br/>
-        	<input type="text" name="name" id="name"/>
-        	<br/>
-        	<label for="email">Email</label><br/>
-        	<input type="email" name="email" id="email"/><br/><div style="display:none;">
-        	<label for="hp">HP</label><br/>
-        	<input type="text" name="hp" id="hp"/>
+        	<label for="name">Name</label><br />
+        	<input type="text" name="name" id="name" />
+        	<br />
+        	<label for="email">Email</label><br />
+        	<input type="email" name="email" id="email" /><br /><div style="display:none;">
+        	<label for="hp">HP</label><br />
+        	<input type="text" name="hp" id="hp" />
         	</div>
-        	<input type="hidden" name="list" value="6djKUj7CbeJC4AEVZqGRLQ"/>
-        	<input type="hidden" name="subform" value="yes"/><br>
-        	<input class = "botao" type="submit" name="submit" id="submit" style="background-color:#fff !important;border:1px solid #231f20;color:#231f20"/>
+        	<input type="hidden" name="list" value="6djKUj7CbeJC4AEVZqGRLQ" />
+        	<input type="hidden" name="subform" value="yes" /><br />
+        	<input class="botao" type="submit" name="submit" id="submit" style="background-color:#fff !important;border:1px solid #231f20;color:#231f20" />
         </form>
-        <br>
+        <br />
         <p>You can check how we will use this information in our <a href="privacidade">privacy policy page</a>.</p>
         <p>Veja abaixo os principais pontos cobertos por essa política:</p>
         <ul>
@@ -131,4 +124,10 @@ social_description: "Stay tuned for news about us, reports and more."
   padding: 30px 0;
   border-top: 1px solid #d91c5c;
 }
+
+.botao hover{
+  color:yellow;
+}
 </style>
+
+:ET
