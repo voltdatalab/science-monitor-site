@@ -1,12 +1,6 @@
----
-layout: app
-title: Science Pulse App
-description: The Science Pulse is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms.
----
+I"|	<p>The <strong>Science Pulse</strong> is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms.</p>
 
-The **Science Pulse** is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms.
-
-This project is still in Beta fase and could present some instabilities or higher loading times, especially as we adjust our servers. <a class="button" href="#popup1">Click here for important notes, feedback and methodology.</a>
+<p>This project is still in Beta fase and could present some instabilities or higher loading times, especially as we adjust our servers. <a class="button" href="#popup1">Click here for important notes.</a></p>
 
 <div id="popup1" class="overlay">
 	<div class="popup">
@@ -14,11 +8,11 @@ This project is still in Beta fase and could present some instabilities or highe
 		<a class="close" href="#">&times;</a>
 		<div class="content">
 As a data exploratory tool, it is better suited to work on desktop computers, but it also works on mobile. For now, we have only data from Twitter, but we are working to get access to data to create other modules, especially one for Facebook.
-<br><br>
+<br /><br />
 To suggest a new profile to be included in our platform, use <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGk8fYdAtAcyMuddZHqJDHYuTYn0o6i5dSrPzB__0HeggLhQ/viewform" target="_blank">this form</a>.
-<br><br>
+<br /><br />
 For any other inquiries, reach us at <a href="mailto:sciencemonitor@icfj.org" target="_blank">sciencemonitor@icfj.org</a>.
-<br><br>
+<br /><br />
 For the methodology <a href="../methodology" target="_blank">click here</a>.
 
 You can find our privacy policy and license <a href="../privacy" target="_blank">in this link</a>.
@@ -103,3 +97,5 @@ You can find our privacy policy and license <a href="../privacy" target="_blank"
   }
 }
 <style>
+</style>
+:ET
