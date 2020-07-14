@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: About Science Pulse
-last_update: "July 2, 2020"
+last_update: "July 14, 2020"
 description: "In very few words: <strong>Science Pulse</strong> is a social listening tool designed to bridge the gap between journalists and scientists within social media platforms. The main goal is to help journalists find trending scientific content."
 social_description: "The Science Pulse is a social listening tool designed to bridge the gap between journalists and scientists on social media."
 main_img: '{{ site.baseurl }}/img/header_red.jpeg'
@@ -30,7 +30,7 @@ Brazilian science journalism agency [Bori](https://abori.com.br/) is our partner
 ### TEAM
 
 #### Sérgio Spagnuolo (lead)
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/sergiospagnuolo) - [sspagnuolo@icfj.org](mailto:sspagnuolo@icfj.org)<br>
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/sergiospagnuolo) - [sergio@voltdatainfo.info](mailto:sergio@voltdatainfo.info) || [sspagnuolo@icfj.org](mailto:sspagnuolo@icfj.org)<br>
 ICFJ Knight Fellow for 2020/2021 and editor at Volt Data Lab
 
 #### Lucas Gelape
@@ -40,3 +40,11 @@ Political scientist and data analyst at Volt Data Lab
 #### Rodolfo Almeida
 [<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/rodolfoalmd) - [info@voltdata.info](mailto:info@voltdata.info)<br>
 Designer
+
+#### Renata Hirota
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/renata_mh) - [renata@voltdata.info](mailto:renata@voltdata.info)<br>
+Data journalist at Volt Data Lab
+
+#### Felippe Mercurio
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/ztock) - [felippe@voltdata.info](mailto:felippe@voltdata.info)<br>
+Database manager at Volt Data Lab
