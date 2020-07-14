@@ -4,8 +4,6 @@ title: Science Pulse App
 description: The Science Pulse is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms.
 ---
 
-## WE ARE CURRENTLY IN MAINTENANCE FOR OUR BETA LAUNCH ON 14 JULY, 2020
-
 The **Science Pulse** is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms.
 
 This project is still in Beta fase and could present some instabilities or higher loading times, especially as we adjust our servers. <a class="button" href="#popup1">Click here for important notes, feedback and methodology.</a>

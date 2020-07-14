@@ -7,6 +7,8 @@ social_description: "How Science Pulse works."
 main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 ---
 
+_You can get the core code for the application [in this link](https://github.com/voltdatalab/science-pulse-public). With time, we will make more elements available._
+
 ### PROFILE COLLECTION
 All the profiles of scientists, experts, physicians, organisations and scientific initiatives were compiled by Pulse's development team through a number of methods, and where based on the biographies displayed in their profiles at the time of collection.
 
