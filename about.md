@@ -30,7 +30,7 @@ Brazilian science journalism agency [Bori](https://abori.com.br/) is our partner
 ### TEAM
 
 #### Sérgio Spagnuolo
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/sergiospagnuolo) - [sergio@voltdatainfo.info](mailto:sergio@voltdatainfo.info) || [sspagnuolo@icfj.org](mailto:sspagnuolo@icfj.org)<br>
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/sergiospagnuolo) - [sergio@voltdata.info](mailto:sergio@voltdata.info) || [sspagnuolo@icfj.org](mailto:sspagnuolo@icfj.org)<br>
 ICFJ Knight Fellow for 2020/2021 and editor at Volt Data Lab
 
 #### Lucas Gelape
