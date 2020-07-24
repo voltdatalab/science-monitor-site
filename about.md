@@ -35,7 +35,7 @@ ICFJ Knight Fellow for 2020/2021 and editor at Volt Data Lab
 
 #### Lucas Gelape
 [<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/lgelape) - [lucas@voltdata.info](mailto:lucas@voltdata.info)<br>
-Political scientist and data analyst at Volt Data Lab
+Data analyst at Volt Data Lab
 
 #### Rodolfo Almeida
 [<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/rodolfoalmd) - [info@voltdata.info](mailto:info@voltdata.info)<br>

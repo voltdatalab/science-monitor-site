@@ -1,29 +1,24 @@
----
-layout: app
-title: Science Pulse App
-description: The Science Pulse is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms.
----
+I"¤
+<p><a class="button" href="#popup1">Click here for <strong>IMPORTANT NOTES</strong> and <strong>METHODOLOGY</strong></a></p>
 
-<a class='button' href='#popup1'>Click here for <strong>IMPORTANT NOTES</strong> and <strong>METHODOLOGY</strong></a>
-
-<div id='popup1' class='overlay'>
-	<div class='popup'>
+<div id="popup1" class="overlay">
+	<div class="popup">
 		<h2>NOTES</h2>
-		<a class='close' href='#'>&times;</a>
-		<div class='content'>
-The <strong>Science Pulse</strong> is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms.<br><br>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+The <strong>Science Pulse</strong> is a free tool designed to bridge the gap between the discussions of journalists and scientists within social media platforms.<br /><br />
 
-This tool was built in English to reach a bigger audience. For now, we focus mostly on scientists and scientific organisations that publish in <strong>English</strong> and in <strong>Portuguese</strong>, with some support for Spanish and other languages as well.<br><br>
+This tool was built in English to reach a bigger audience. For now, we focus mostly on scientists and scientific organisations that publish in <strong>English</strong> and in <strong>Portuguese</strong>, with some support for Spanish and other languages as well.<br /><br />
 
 As a data exploratory tool, it is better suited to work on desktop computers, but it also works on mobile. For now, we have only data from Twitter, but we are working to get access to data to create other modules, especially one for Facebook.
-<br><br>
-To suggest a new profile to be included in our platform, use <a href='https://docs.google.com/forms/d/e/1FAIpQLSfGk8fYdAtAcyMuddZHqJDHYuTYn0o6i5dSrPzB__0HeggLhQ/viewform' target='_blank'>this form</a>.
-<br><br>
-For any other inquiries, reach us at <a href='mailto:sciencemonitor@icfj.org' target='_blank'>sciencemonitor@icfj.org</a>.
-<br><br>
-For the methodology <a href='../methodology' target='_blank'>click here</a>.
+<br /><br />
+To suggest a new profile to be included in our platform, use <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGk8fYdAtAcyMuddZHqJDHYuTYn0o6i5dSrPzB__0HeggLhQ/viewform" target="_blank">this form</a>.
+<br /><br />
+For any other inquiries, reach us at <a href="mailto:sciencemonitor@icfj.org" target="_blank">sciencemonitor@icfj.org</a>.
+<br /><br />
+For the methodology <a href="../methodology" target="_blank">click here</a>.
 
-You can find our privacy policy and license <a href='../privacy' target='_blank'>in this link</a>.<br><br>
+You can find our privacy policy and license <a href="../privacy" target="_blank">in this link</a>.<br /><br />
 		</div>
 	</div>
 </div>
@@ -109,4 +104,6 @@ You can find our privacy policy and license <a href='../privacy' target='_blank'
     width: 70%;
   }
 }
+<style>
 </style>
+:ET
