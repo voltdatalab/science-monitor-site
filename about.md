@@ -23,9 +23,7 @@ That is why we decided to make a tool to increase the discovery around the scien
 
 ### ABOUT
 
-The **Science Pulse** is supported by the [International Center for Journalists](https://icfj.org/), under the [Knight Fellowship](https://www.icfj.org/our-work/knight/icfj-knight-fellowships) program. The project is developed by the data-driven agency [Volt Data Lab](https://voltdata.info/).
-
-Brazilian science journalism agency [Bori](https://abori.com.br/) is our partner in this venture, helping us to make sense of the technology and the information we gather.  
+Science Pulse is a project by the Brazilian data-driven agency [Volt Data Lab](https://voltdata.info), in collaboration with the [International Center for Journalists (ICFJ)](https://icfj.org) and the Brazilian science journalism agency [Bori](https://abori.com.br/).
 
 ### TEAM
 
