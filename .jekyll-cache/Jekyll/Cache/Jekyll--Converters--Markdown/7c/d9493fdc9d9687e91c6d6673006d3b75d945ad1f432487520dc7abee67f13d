@@ -1,0 +1,58 @@
+I"�<p><em>You can get the core code for the application <a href="https://github.com/voltdatalab/science-pulse-public">in this link</a>. With time, we will make more elements available.</em></p>
+
+<h3 id="profile-collection">PROFILE COLLECTION</h3>
+<p>All the profiles of scientists, experts, physicians, organisations and scientific initiatives were compiled by Science Pulse’s development team through a number of methods. We found those profiles mostly through three ways:</p>
+
+<ol>
+  <li>A crowdsourcing, where people were invited to suggest a profile;</li>
+  <li>By identifying users with profiles verified by Twitter and checking the profiles that they follow;</li>
+  <li>Consulting Twitter lists of scientists made by universities and journalists.</li>
+</ol>
+
+<p>Anyone can suggest a new profile to include in our platform through <a href="https://forms.gle/KHufKHzJxJVdsD7s8">this form</a>.</p>
+
+<p>If you are a scientist or expert with a profile mapped by this tool, you can ask us to be left out. Send an email to <a href="mailto:sciencemonitor@icfj.org">sciencemonitor@icfj.org</a>.</p>
+
+<h3 id="data-collection">DATA COLLECTION</h3>
+
+<p>New posts in social media are collected constantly. For now, we are limiting the display of information for only 30 day-periods at a time. Our database is updated regularly with new tweets and counts, in respect to Twitter’s free API limits.</p>
+
+<p>We are still working on modules to include other social media platforms.</p>
+
+<h3 id="twitter-trends-tab">TWITTER TRENDS TAB</h3>
+
+<p>All our trends consider only tweets published in the last 12-hours by our listed profiles. They consider both authored tweets and retweets as separate posts.</p>
+
+<p>Trending tweets are separated into three groups for each language:</p>
+
+<ol>
+  <li>
+    <p><strong>Popular within pulse</strong>: lists tweets authored by Pulse’s list members that had the largest number of retweets from the whole population of Twitter users (retweet count), at the moment of the last data collection.</p>
+  </li>
+  <li>
+    <p><strong>Popular among scientists</strong>:  shows the most retweeted posts published in Pulse’s database by the list’s own members. Every time one member shared a tweet, it counts as one. The highest ranked posts had the highest number of retweets inside the sample, thus identifying the tweets that got the most attention by the listed accounts. For example, if 15 profiles in our sample shared this <a href="https://twitter.com/WHO/status/1275349898209173505">@WHO tweet</a>, it has a 15 share rate.</p>
+  </li>
+  <li>
+    <p><strong>Other popular tweets</strong>: records the most shared tweets considering the most recent retweet counts of each. In this set, we identify those posts with wide repercussion on Twitter that were also shared by our experts’ and institutions’ list. They count retweets among the whole set of Twitter users, at the time of the most recent share by one of the accounts in our sample. For example, it considers the total RT count for this <a href="https://twitter.com/WHO/status/1275349898209173505">tweet by @WHO</a> at the time it was shared in the sample (564 RT at 5:15pm GMT -3).</p>
+  </li>
+</ol>
+
+<h3 id="explore-tweets-tab">EXPLORE TWEETS TAB</h3>
+
+<p>The explore tabs digs deeper into our databases. It contains four sets of information on tweets posted in the last 12 hours and they are also filtered by language:</p>
+
+<ol>
+  <li>
+    <p>Active Users: the users who have tweeted the most over this period;</p>
+  </li>
+  <li>
+    <p>Hashtags: the most shared hashtags in the same time-lapse;</p>
+  </li>
+  <li>
+    <p>Also popular within pulse: we use a clustering algorithm (k-means clustering) to classify those tweets into four groups according to their retweet count at the time of the last data collection (1 through 4, with 4 being those with the most retweets). Then, we consider only tweets from “group 2”, eliminating those that are probably personal messages and thus have less retweets (group 1) and those that had reached our main trends (Trends tab) or had reached users’ Twitter timelines by their own organic reach (groups 3 and 4). Inside group 2, the also popular within pulse set uses the same metrics as the Popular within pulse set from the Trends tab.</p>
+  </li>
+  <li>
+    <p>Pulse radar: this set shows a random sample of five tweets from the previously described group 2. Tweets can coincide with the previous set, but gives the user a chance to find other interesting content that is not trending.</p>
+  </li>
+</ol>
+:ET

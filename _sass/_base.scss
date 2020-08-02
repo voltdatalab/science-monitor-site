@@ -106,7 +106,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: #fff;
+    background-color: transparent;
     border-color: rgba($theme-dark, 0);
     @include sans-serif-font;
     @include transition-all;
@@ -144,7 +144,7 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: #fff;
+        background-color: transparent;
         /*border-color: rgba(white, .3);*/
         .navbar-header .navbar-brand {
             color: #d91c5c;
@@ -192,7 +192,7 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center center;
+    background-position: top;
     /*background: url('../img/header.jpg') rgba(0, 0, 0, 0.1);*/
     background-image:
     linear-gradient(

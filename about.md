@@ -23,7 +23,7 @@ That is why we decided to make a tool to increase the discovery around the scien
 
 ### ABOUT
 
-Science Pulse is a project by the Brazilian data-driven agency [Volt Data Lab](https://voltdata.info), in collaboration with the [International Center for Journalists (ICFJ)](https://icfj.org) and the Brazilian science journalism agency [Bori](https://abori.com.br/).
+Science Pulse is a project by the Brazilian data-driven agency [Volt Data Lab](https://voltdata.info), in collaboration with the [International Center for Journalists (ICFJ)](https://icfj.org) and the science journalism agency [Bori](https://abori.com.br/).
 
 ### TEAM
 
