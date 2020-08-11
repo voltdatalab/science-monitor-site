@@ -67,6 +67,12 @@ gtag('js', new Date());
 gtag('config', 'UA-169741376-1');
 </script>
 
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+
 </head>
 
 
@@ -116,18 +122,26 @@ gtag('config', 'UA-169741376-1');
     </div>
 </header>
 
-  <section class="bg-primary" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Enhanced discovery</h2>
-                <hr class="light">
-                <p class="text-faded">Instead of following hundreds of new people at once and get lost in your news feed, we gathered in one place profiles and trends that can help your reporting. Our database includes over 1,200 profiles of experts, scientists, organizations and scientific initiatives. </p>
-                <a href="about" class="btn btn-default btn-xl">Know more</a>
-            </div>
-        </div>
-    </div>
-</section>
+    <aside class="bg-dark">
+      <div class="container text-center">
+          <div class="call-to-action">
+              <h2></h2>
+              <p>
+                Science Pulse is a project led by ICFJ Knight Fellow Sérgio Spagnuolo in collaboration with <a href="https://voltdata.info" target="_blank">Volt Data Lab</a>, a data-driven news agency he founded in Sao Paulo, Brazil. It is supported by the <a href="https://icfj.org" target="_blank">International Center for Journalists (ICFJ)</a> and by the Brazilian science journalism agency <a href="https://abori.com.br/" target="_blank">Bori</a>.
+                </p>
+                <div class="row">
+                <div class="col-lg-2 col-lg-offset-2 text-center">
+                    <img src="/img/icfj.png" alt="logo icfj" width="300px"/>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 text-center">
+                      <img src="/img/volt.png" alt="logo icfj" width="210px" style="margin-top:37px"/>
+                </div>
+                <div class="col-lg-1 col-lg-offset-0 text-center">
+                    <img src="/img/agenciabori.png" alt="logo icfj" width="100px" style="margin-top:37px"/>
+                </div>
+          </div>
+      </div>
+  </aside>
 
   <section id="services">
     <div class="container">
@@ -162,64 +176,74 @@ gtag('config', 'UA-169741376-1');
     </div>
 </section>
 
-    <aside class="bg-dark">
-      <div class="container text-center">
-          <div class="call-to-action">
-              <h2>This project</h2>
-              <p>
-                Science Pulse is a project by the Brazilian data-driven agency <a href="https://voltdata.info" target="_blank">Volt Data Lab</a>, in collaboration with the <a href="https://icfj.org" target="_blank">International Center for Journalists (ICFJ)</a> and the Brazilian science journalism agency <a href="https://abori.com.br/" target="_blank">Bori</a>.
-                </p>
-                <div class="row">
-                <div class="col-lg-2 col-lg-offset-2 text-center">
-                    <img src="/img/icfj.png" alt="logo icfj" width="300px"/>
-                </div>
-                <div class="col-lg-3 col-lg-offset-1 text-center">
-                      <img src="/img/volt.png" alt="logo icfj" width="210px" style="margin-top:37px"/>
-                </div>
-                <div class="col-lg-1 col-lg-offset-0 text-center">
-                    <img src="/img/agenciabori.png" alt="logo icfj" width="100px" style="margin-top:37px"/>
-                </div>
-          </div>
-      </div>
-  </aside>
-
-  <style>
-input{
-  color: #fff;
-  background: #1cd999;
-  border-radius: 5px;
-
-}
-</style>
-
-<section id="contact">
+  <section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Connect with us</h2>
-                <hr class="primary">
+                <h2 class="section-heading">Enhanced discovery</h2>
+                <hr class="light">
+                <p class="text-faded">Instead of following hundreds of new people at once and get lost in your news feed, we gathered in one place profiles and trends that can help your reporting. Our database includes over 1,200 profiles of experts, scientists, organizations and scientific initiatives. </p>
+                <a href="about" class="btn btn-default btn-xl">Know more</a>
             </div>
-        <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="https://twitter.com/thesciencepulse">
-                <i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>
-            </a>
         </div>
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-          <a href="/news">
-              <i class="fa fa-envelope wow bounceIn" data-wow-delay=".1s"></i>
-          </a>
-
-
-
-        </div>
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="https://github.com/voltdatalab/science-pulse-public">
-            <i class="fa fa-github wow bounceIn" data-wow-delay=".1s"></i>
-            </a>
-        </div>
-
     </div>
 </section>
+
+  <style>
+input{
+  color: #1cd999;
+  background: #fff;
+  border-radius: 5px;
+}
+</style>
+<!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify"><strong>Science Pulse</strong> is a <em>social listening</em> tool designed to bridge the gap between journalism and science in social media. This project is led by ICFJ Knight Fellow Sérgio Spagnuolo, in collaboration with <a href="https://voltdata.info" target="_blank">Volt Data Lab</a>, a data-driven news agency he founded in Sao Paulo, Brazil. It is supported by the <a href="https://icfj.org" target="_blank">International Center for Journalists (ICFJ)</a> and by the Brazilian science journalism agency <a href="https://abori.com.br/" target="_blank">Bori</a>.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-2">
+          <h6>KNOW MORE</h6>
+          <ul class="footer-links">
+            <li><a href="https://forms.gle/Fg4cwTcDggWC2BTe9">Feedback form</a></li>
+            <li><a href="https://forms.gle/iQ7aYHqDyHicmx198">Suggest a profile</a></li>
+            <li><a href="methodology">Methodology</a></li>
+            <li><a href="news">Newsletter</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-2">
+          <h6>KNOW US</h6>
+          <ul class="footer-links">
+            <li><a href="about">About Us</a></li>
+            <li><a href="privacy">Privacy Policy</a></li>
+            <li><a href="https://www.icfj.org/our-work/knight/icfj-knight-fellowships">ICFJ Knight Fellowships</a></li>
+            <li><a href="https://www.voltdata.info">Volt Data Lab</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr style="width: 100% !important;max-width:100%">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text"><a href="license">2020 - This is an open source project, distributed under MIT License</a>.
+          </p>
+          <ul class="social-icons">
+            <li><a class="twitter" href="https://twitter.com/thesciencepulse"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="github" href="https://github.com/voltdatalab/science-pulse-public"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 col-sm-2 col-xs-12">
+
+        </div>
+      </div>
+    </div>
+</footer>
 
   <!-- jQuery -->
 <script src="js/jquery.js"></script>
