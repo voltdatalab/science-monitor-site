@@ -81,7 +81,7 @@ Data journalist at Volt Data Lab
 Database manager at Volt Data Lab
 
 #### Camila da Silva
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/silvajornalismo) - [info@voltdata.info](mailto:info@voltdata.info)<br>
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/silvajornalismo) - [camila@voltdata.info](mailto:camila@voltdata.info)<br>
 Research intern at Volt Data Lab
 
 
