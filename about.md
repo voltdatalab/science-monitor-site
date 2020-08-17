@@ -3,7 +3,7 @@ layout: pages
 title: About Science Pulse
 last_update: "August 14, 2020"
 description: "In very few words: <strong>Science Pulse</strong> is a social listening tool designed to bridge the gap between journalists and scientists within social media platforms. The main goal is to help journalists find trending scientific content."
-social_description: "The Science Pulse is a social listening tool designed to bridge the gap between journalists and scientists on social media."
+social_description: "We are a social listening tool designed to bridge the gap between journalists and scientists on social media."
 main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 ---
 

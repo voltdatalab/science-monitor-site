@@ -106,8 +106,8 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: transparent;
-    border-color: rgba($theme-dark, 0);
+    background-color: #fff;
+    border-bottom: 1px solid #cbcbcb;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
@@ -145,7 +145,11 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
+        border-color: rgba($theme-dark, 0);
         /*border-color: rgba(white, .3);*/
+        .navbar-brand>img {
+            width: 150px;
+          }
         .navbar-header .navbar-brand {
             color: #d91c5c;
             &:hover,
