@@ -40,7 +40,7 @@ Trending tweets are separated into three groups for each language:
 
 2. **Popular among scientists**:  shows the most retweeted posts published in Pulse’s database by the list’s own members. Every time one member shared a tweet, it counts as one. The highest ranked posts had the highest number of retweets inside the sample, thus identifying the tweets that got the most attention by the listed accounts. For example, if 15 profiles in our sample shared this [@WHO tweet](https://twitter.com/WHO/status/1275349898209173505), it has a 15 share rate.
 
-3. **Other popular tweets**: records the most shared tweets considering the most recent retweet counts of each. In this set, we identify those posts with wide repercussion on Twitter that were also shared by our experts’ and institutions’ list. They count retweets among the whole set of Twitter users, at the time of the most recent share by one of the accounts in our sample. For example, it considers the total RT count for this [tweet by @WHO](https://twitter.com/WHO/status/1275349898209173505) at the time it was shared in the sample (564 RT at 5:15pm GMT -3).
+3. **Experts trends**: ranks the five tweets with the highest RT:followers ratio published by Pulse's list members (and only if they had more than 10 retweets). This list displays posts that had a significant engagement (RTs) from Twitter users considering the reach (number of followers) from the profile who wrote it. If a tweet has 200 RT and its author 400 followers, the tweet has a 0.5 RT:followers ratio. 
 
 ### EXPLORE TWEETS TAB
 
@@ -54,9 +54,11 @@ The explore tabs digs deeper into our databases. It contains four sets of inform
 
 4. **Pulse radar**: this set shows a random sample of five tweets from the previously described group 2. Tweets can coincide with the previous set, but gives the user a chance to find other interesting content that is not trending.
 
+5. **Other popular tweets**: records the most shared tweets considering the most recent retweet counts of each. In this set, we identify those posts with wide repercussion on Twitter that were also shared by our experts’ and institutions’ list. They count retweets among the whole set of Twitter users, at the time of the most recent share by one of the accounts in our sample. For example, it considers the total RT count for this [tweet by @WHO](https://twitter.com/WHO/status/1275349898209173505) at the time it was shared in the sample (564 RT at 5:15pm GMT -3).
+
 ### COVID-19 TWEETS TAB
 
-The Covid-19 tab filters tweets in the last 12 hours by keywords related to Covid-19. Thus, it shows trends focused on pandemic-related issues. The metrics used here are same for the Active users and Hashtags from the Explore tab - with the caveat that we exclude common hashtags, such as [#COVID-19](https://twitter.com/hashtag/covid19), and the Popular within pulse and Popular among scientists from the Trends tab.
+The Covid-19 tab filters tweets in the last 12 hours by keywords related to Covid-19. Thus, it shows trends focused on pandemic-related issues. The metrics used here are same for the **Active users** and **Hashtags** from the Explore tab - with the caveat that we exclude common hashtags, such as [#COVID-19](https://twitter.com/hashtag/covid19), and the **Popular within pulse**, **Popular among scientists** and **Experts trends** from the Trends tab.
 
 These are the keywords we apply as filters: "Covid", "covid", "Coronavirus", "coronavirus",
                     "Corona", "corona", "SARS-CoV-2", "Sars-CoV-2",
