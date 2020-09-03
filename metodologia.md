@@ -9,56 +9,62 @@ main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 
 _Você pode acessar nosso código aberto desta aplicação [neste link](https://github.com/voltdatalab/science-pulse-public)._
 
-## ABOUT THE DATA
+_[Read the methodology in English](methodology)_
 
-### PROFILE COLLECTION
-All the profiles of scientists, experts, physicians, organisations and scientific initiatives were compiled by Science Pulse's development team through a number of methods. We found those profiles mostly through three ways:
+## SOBRE OS DADOS
 
-1. A crowdsourcing, where people were invited to suggest a profile;
-2. By identifying users with profiles verified by Twitter and checking the profiles that they follow;
-3. Consulting Twitter lists of scientists made by universities and journalists.
+### COLETA DE PERFIS
+Todos os perfis de cientistas, especialistas, médicos, organizações e iniciativas científicas foram compilados pela equipe de desenvolvimento do Science Pulse por uma variedade de métodos. Encontramos esses perfis, principalmente, de três formas:
 
-Anyone can suggest a new profile to include in our platform through [this form](https://forms.gle/KHufKHzJxJVdsD7s8).
+1. Um crowdsourcing, pelo qual convidamos as pessoas a sugerir perfis;
 
-If you are a scientist or expert with a profile mapped by this tool, you can ask us to be left out. Send an email to [sciencemonitor@icfj.org](mailto:sciencemonitor@icfj.org).
+2. Ao identificar usuários com perfis verificados pelo Twitter e, a partir deles, encontrar novos perfirs a partir de quem seguem;
 
-### DATA COLLECTION
+3. Consultando listas de Twitter feitas por universidades ou jornalistas.
 
-New posts in social media are collected constantly. For now, we are limiting the display of information for only 30 day-periods at a time. Our database is updated regularly with new tweets and counts, in respect to Twitter's free API limits.
+Qualquer pessoa pode sugerir um novo perfil para ser incluído em nossa plataforma através [deste formulário](https://forms.gle/KHufKHzJxJVdsD7s8).
 
-We are still working on modules to include other social media platforms.
+Caso seja um cientista ou especialista com o perfil mapeado por esta ferramenta, vou pode solicitar sua exclusão do banco de dados do Science Pulse. Envie um email para [sciencemonitor@icfj.org](mailto:sciencemonitor@icfj.org).
 
-## ABOUT THE ALGORITHM
 
-### TWITTER TRENDS TAB
+### COLETA DE DADOS
 
-All our trends consider only tweets published in the last 12-hours by our listed profiles. They consider both authored tweets and retweets as separate posts.
+Novos posts em redes sociais são coletados constantemente. Por enquanto, estamos limitando o número de tweets para apenas períodos de 30 dias. Nosso banco de dados é atualizado regularmente com novos tweets e contagens, respeitando os limites da API gratuita do Twitter.
 
-Trending tweets are separated into three groups for each language:
+Ainda estamos trabalhando em módulos para incluir outras plataformas de redes sociais.
 
-1. **Popular within pulse**: lists tweets authored by Pulse's list members that had the largest number of retweets from the whole population of Twitter users (retweet count), at the moment of the last data collection.
+## SOBRE O ALGORITMO
 
-2. **Popular among scientists**:  shows the most retweeted posts published in Pulse’s database by the list’s own members. Every time one member shared a tweet, it counts as one. The highest ranked posts had the highest number of retweets inside the sample, thus identifying the tweets that got the most attention by the listed accounts. For example, if 15 profiles in our sample shared this [@WHO tweet](https://twitter.com/WHO/status/1275349898209173505), it has a 15 share rate.
+### ABA TWITTER TRENDS
 
-3. **Other popular tweets**: records the most shared tweets considering the most recent retweet counts of each. In this set, we identify those posts with wide repercussion on Twitter that were also shared by our experts’ and institutions’ list. They count retweets among the whole set of Twitter users, at the time of the most recent share by one of the accounts in our sample. For example, it considers the total RT count for this [tweet by @WHO](https://twitter.com/WHO/status/1275349898209173505) at the time it was shared in the sample (564 RT at 5:15pm GMT -3).
+Todas as nossas tendências consideram apenas tweets publicados ou recompartilhados nas últimas 12 horas pelos perfis que seguimos.
 
-### EXPLORE TWEETS TAB
+Nossa aba principal de tendências é separada em três grupos para cada idioma:
 
-The explore tabs digs deeper into our databases. It contains four sets of information on tweets posted in the last 12 hours and they are also filtered by language:
+1. **Popular within pulse**: lista tweets de autoria de perfis monitorados pelo Science Pulse que tenham o maior número de retweets de toda a população de usuários (contagem de RTs), no momento da última coleta de dados.
 
-1. **Active Users**: the users who have tweeted the most over this period;
+2. **Popular among scientists**: mostra as publicações mais retuitadas pelos perfis monitorados pelo Science Pulse. Toda vez que um perfil que monitoramos compartilha um tweet, ele conta como um (n = 1). As publicações melhor rankeadas possuem o maior número de retweets dentro dessa amostragem, assim identificando os tweets que conseguiram mais atenção entre os perfis monitorados pelo Science Pulse. Por exemplo: se 15 perfis em nosso banco de dados compartilharam este  [tweet da OMS](https://twitter.com/WHO/status/1275349898209173505), ele possui um taxa de compartilhamento de 15.
 
-2. **Hashtags**: the most shared hashtags in the same time-lapse;
+3. **Rising in popularity**: rankeia os cinco tweets com maior proporção de RTs por seguidores (RT:followers) publicados por membros da lista do Science Pulse (apenas se tiverem mais de 10 retweets). Essa lista mostra posts que tiveram engajamento significativo (com base em RTs), levando em conta o alcance (número de seguidores) do perfil que a escreveu. Se um tweet tiver 200 RTs e seu autor tiver 400 seguidores, o tweet possui uma razão de 0,5 RT:seguidores.
 
-3. **Also popular within pulse**: we use a clustering algorithm (k-means clustering) to classify those tweets into four groups according to their retweet count at the time of the last data collection (1 through 4, with 4 being those with the most retweets). Then, we consider only tweets from "group 2", eliminating those that are probably personal messages and thus have less retweets (group 1) and those that had reached our main trends (Trends tab) or had reached users' Twitter timelines by their own organic reach (groups 3 and 4). Inside group 2, the also popular within pulse set uses the same metrics as the Popular within pulse set from the Trends tab.
 
-4. **Pulse radar**: this set shows a random sample of five tweets from the previously described group 2. Tweets can coincide with the previous set, but gives the user a chance to find other interesting content that is not trending.
+### ABA EXPLORE TWEETS
+
+Essa aba serve para maior exploração do banco de dados do Science Pulse. Ela contém quatro conjuntos de informações sobre tweets publicados nas últimas 12 horas, também filtrados por idioma:
+
+1. **Active Users**: os usuários que mais tuitaram no período;
+
+2. **Hashtags**: as hashtags mais compartilhadas no mesmo período;
+
+3. **Also popular within pulse**: utilizamos um algoritmo de agrupamento (k-means clustering) para classificar esses tweets em quatro grupos, de acordo com sua contagem de retweets com base na última coleta de dados (de 1 a 4, sendo 4 o grupo com mais retweets). Então, consideramos apenas tweets do "grupo 2", eliminando aquelas que provavelmente são mensagens pessoais e, assim, possuem menos retweets (grupo 1) e aquelas que atingiram o topo dos nossos trending topics (da aba Trends) ou com grande volume orgânico (grupos 3 ou 4). Dentro do grupo 2 é utilizada a mesma métrica da coluna "Popular within Pulse" na aba Trends.  
+
+4. **Pulse radar**: este conjunto de dados representa uma amostra aleatória de cinco tweets do grupo 2 (descrito acima). Tweets podem coincidir com o conjunto anterior, mas dá a chance para o usuário encontrar conteúdo interessante que não está nos trends.
 
 ### COVID-19 TWEETS TAB
 
-The Covid-19 tab filters tweets in the last 12 hours by keywords related to Covid-19. Thus, it shows trends focused on pandemic-related issues. The metrics used here are same for the Active users and Hashtags from the Explore tab - with the caveat that we exclude common hashtags, such as [#COVID-19](https://twitter.com/hashtag/covid19), and the Popular within pulse and Popular among scientists from the Trends tab.
+A aba COVID-19 filtra tweets nas últimas 12 horas por palavras-chave relacionadas à pandemia. As métricas utilizadas são as mesmas para usuários ativos e hashtags da aba EXPLORE - com a exclusão de hashtags mais recorrentes, como [#COVID-19](https://twitter.com/hashtag/covid19) - e da coluna Popular within Pulse, da aba TRENDS.  
 
-These are the keywords we apply as filters: "Covid", "covid", "Coronavirus", "coronavirus",
+Essas são as palavras-chave aplicadas como filtro: "Covid", "covid", "Coronavirus", "coronavirus",
                     "Corona", "corona", "SARS-CoV-2", "Sars-CoV-2",
                     "SRAG", "sindrome", "syndrome", "pandemic",
                     "pandemia", "WHO", "OMS", "quarantine", "social distancing",
@@ -66,10 +72,10 @@ These are the keywords we apply as filters: "Covid", "covid", "Coronavirus", "co
                     "mascara", "mask", "distanciamiento social", "spread", "asymptomatic",
                     "epidemic", "outbreak", "epidemia", "vacina", "vaccine", "wuhan", "Wuhan"
 
-### POPULARITY TWEETS TAB
+### ABA POPULARITY
 
-The Popularity tab allows the user to check the most posted hashtags and active users in a selected date range, and also plot a graph on the number of posts that included a specific keyword.
+Essa aba permite com que o usuário do Science Pulse veja as hashtags mais usadas e os usuários mais ativos em um período de tempo selecionado, e também mostrar um gráfico com o número de posts publicados com uma palavra-chave específica.
 
-### PROFILES TWEETS TAB
+### ABA PROFILES
 
-In the Profiles tab, we list all members from the group of scientists, institutions, researchers and experts curated by Science Pulse. To help users discover new and reliable sources of scientific information, the Find New Experts table shows a random sample of five accounts which have a number of followers smaller than the median number of followers from the profiles in our sample.
+Na aba PROFILES, listamos todos os perfis que compõe a curadoria do Science Pulse, entre cientistas, instituições, pesquisadores e especialistas. Para ajudar usuários a descobrir novas fontes de informação científica, a tabela Find New Experts retorna uma amostra aleatória de cinco perfis que possuam o número de usuários menor do que a mediana de seguidores dos perfis em nosso banco de dados.

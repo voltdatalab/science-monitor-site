@@ -22,7 +22,7 @@ main_img: '{{ site.baseurl }}/img/header_red.jpeg'
     <p>O <strong>Science Pulse</strong> é um projeto liderado pelo ICFJ Knight Fellow Sérgio Spagnuolo em colaboração com o <a href="https://voltdata.info">Volt Data Lab</a>, agência de dados fundada por ele em São Paulo. O projeto é apoiado pelo <a href="https://icfj.org">Centro Internacional para Jornalistas (ICFJ)</a> e pela agência de jornalismo científico <a href="https://abori.com.br/">Bori</a>.</p>
 
     <small>Você pode encontrar nossa política de privacidade <a href="../privacidade">neste link</a>.</small>
-    <small>Leia a metodologia <a href="../metodology">aqui</a> (apenas em inglês, por enquanto).</small>
+    <small>Leia a metodologia <a href="../metodologia">aqui</a> (apenas em inglês, por enquanto).</small>
 
     <p><a href="https://www.icfj.org/" target="_blank"><img src="https://sciencepulse.org/img/icfj.png" alt="logo ICFJ" width="160px" style="padding-right:8px"></a>
     <a href="https://www.voltdata.info/" target="_blank"><img src="https://sciencepulse.org/img/volt.png" alt="logo Volt" width="120px"></a>&nbsp;&nbsp;&nbsp;
@@ -79,10 +79,6 @@ Data journalist at Volt Data Lab
 #### Felippe Mercurio
 [<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/ztock) - [felippe@voltdata.info](mailto:felippe@voltdata.info)<br>
 Database manager at Volt Data Lab
-
-#### Camila da Silva
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/silvajornalismo) - [camila@voltdata.info](mailto:camila@voltdata.info)<br>
-Research intern at Volt Data Lab
 
 
 <style>

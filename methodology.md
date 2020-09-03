@@ -1,13 +1,15 @@
 ---
 layout: pages
 title: Methodology
-last_update: "August 2, 2020"
+last_update: "August 17, 2020"
 description: "How Science Pulse works."
 social_description: "How Science Pulse works"
 main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 ---
 
 _You can get the core code for the application [in this link](https://github.com/voltdatalab/science-pulse-public). With time, we will make more elements available._
+
+_[Leia a metodologia em português](metodologia)_
 
 ## ABOUT THE DATA
 
@@ -40,7 +42,7 @@ Trending tweets are separated into three groups for each language:
 
 2. **Popular among scientists**:  shows the most retweeted posts published in Pulse’s database by the list’s own members. Every time one member shared a tweet, it counts as one. The highest ranked posts had the highest number of retweets inside the sample, thus identifying the tweets that got the most attention by the listed accounts. For example, if 15 profiles in our sample shared this [@WHO tweet](https://twitter.com/WHO/status/1275349898209173505), it has a 15 share rate.
 
-3. **Experts trends**: ranks the five tweets with the highest RT:followers ratio published by Pulse's list members (and only if they had more than 10 retweets). This list displays posts that had a significant engagement (RTs) from Twitter users considering the reach (number of followers) from the profile who wrote it. If a tweet has 200 RT and its author 400 followers, the tweet has a 0.5 RT:followers ratio. 
+3. **Experts trends**: ranks the five tweets with the highest RT:followers ratio published by Pulse's list members (and only if they had more than 10 retweets). This list displays posts that had a significant engagement (RTs) from Twitter users considering the reach (number of followers) from the profile who wrote it. If a tweet has 200 RT and its author 400 followers, the tweet has a 0.5 RT:followers ratio.
 
 ### EXPLORE TWEETS TAB
 
