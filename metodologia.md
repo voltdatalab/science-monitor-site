@@ -43,9 +43,9 @@ Nossa aba principal de tendências é separada em três grupos para cada idioma:
 
 1. **Popular within pulse**: lista tweets de autoria de perfis monitorados pelo Science Pulse que tenham o maior número de retweets de toda a população de usuários (contagem de RTs), no momento da última coleta de dados.
 
-2. **Popular among scientists**: mostra as publicações mais retuitadas pelos perfis monitorados pelo Science Pulse. Toda vez que um perfil que monitoramos compartilha um tweet, ele conta como um (n = 1). As publicações melhor rankeadas possuem o maior número de retweets dentro dessa amostragem, assim identificando os tweets que conseguiram mais atenção entre os perfis monitorados pelo Science Pulse. Por exemplo: se 15 perfis em nosso banco de dados compartilharam este  [tweet da OMS](https://twitter.com/WHO/status/1275349898209173505), ele possui um taxa de compartilhamento de 15.
+2. **Popular among scientists**: mostra as publicações mais retuitadas pelos perfis monitorados pelo Science Pulse. Toda vez que um perfil que monitoramos compartilha um tweet, ele conta como um (n = 1). As publicações melhor ranqueadas possuem o maior número de retweets dentro dessa amostragem, assim identificando os tweets que conseguiram mais atenção entre os perfis monitorados pelo Science Pulse. Por exemplo: se 15 perfis em nosso banco de dados compartilharam este  [tweet da OMS](https://twitter.com/WHO/status/1275349898209173505), ele possui um taxa de compartilhamento de 15.
 
-3. **Rising in popularity**: rankeia os cinco tweets com maior proporção de RTs por seguidores (RT:followers) publicados por membros da lista do Science Pulse (apenas se tiverem mais de 10 retweets). Essa lista mostra posts que tiveram engajamento significativo (com base em RTs), levando em conta o alcance (número de seguidores) do perfil que a escreveu. Se um tweet tiver 200 RTs e seu autor tiver 400 seguidores, o tweet possui uma razão de 0,5 RT:seguidores.
+3. **Rising in popularity**: ranqueia os cinco tweets com maior proporção de RTs por seguidores (RT:followers) publicados por membros da lista do Science Pulse (apenas se tiverem mais de 10 retweets). Essa lista mostra posts que tiveram engajamento significativo (com base em RTs), levando em conta o alcance (número de seguidores) do perfil que a escreveu. Se um tweet tiver 200 RTs e seu autor tiver 400 seguidores, o tweet possui uma razão de 0,5 RT:seguidores.
 
 
 ### ABA EXPLORE TWEETS
@@ -58,11 +58,11 @@ Essa aba serve para maior exploração do banco de dados do Science Pulse. Ela c
 
 3. **Also popular within pulse**: utilizamos um algoritmo de agrupamento (k-means clustering) para classificar esses tweets em quatro grupos, de acordo com sua contagem de retweets com base na última coleta de dados (de 1 a 4, sendo 4 o grupo com mais retweets). Então, consideramos apenas tweets do "grupo 2", eliminando aquelas que provavelmente são mensagens pessoais e, assim, possuem menos retweets (grupo 1) e aquelas que atingiram o topo dos nossos trending topics (da aba Trends) ou com grande volume orgânico (grupos 3 ou 4). Dentro do grupo 2 é utilizada a mesma métrica da coluna "Popular within Pulse" na aba Trends.  
 
-4. **Pulse radar**: este conjunto de dados representa uma amostra aleatória de cinco tweets do grupo 2 (descrito acima). Tweets podem coincidir com o conjunto anterior, mas dá a chance para o usuário encontrar conteúdo interessante que não está nos trends.
+4. **Pulse radar**: este conjunto de dados representa uma amostra aleatória de cinco tweets do grupo 2 (descrito acima). Os tweets apresentados nesta coluna podem coincidir com aqueles do conjunto anterior, mas ela proporciona ao usuário maiores chances de encontrar conteúdo científico interessante e que não alcançou os trends.
 
 ### COVID-19 TWEETS TAB
 
-A aba COVID-19 filtra tweets nas últimas 12 horas por palavras-chave relacionadas à pandemia. As métricas utilizadas são as mesmas para usuários ativos e hashtags da aba EXPLORE - com a exclusão de hashtags mais recorrentes, como [#COVID-19](https://twitter.com/hashtag/covid19) - e da coluna Popular within Pulse, da aba TRENDS.  
+A aba COVID-19 filtra tweets nas últimas 12 horas por palavras-chave relacionadas à pandemia. As métricas utilizadas são as mesmas para usuários ativos e hashtags da aba EXPLORE - com a exclusão de hashtags mais recorrentes, como [#COVID-19](https://twitter.com/hashtag/covid19) - e das colunas da aba TRENDS.  
 
 Essas são as palavras-chave aplicadas como filtro: "Covid", "covid", "Coronavirus", "coronavirus",
                     "Corona", "corona", "SARS-CoV-2", "Sars-CoV-2",
@@ -74,7 +74,7 @@ Essas são as palavras-chave aplicadas como filtro: "Covid", "covid", "Coronavir
 
 ### ABA POPULARITY
 
-Essa aba permite com que o usuário do Science Pulse veja as hashtags mais usadas e os usuários mais ativos em um período de tempo selecionado, e também mostrar um gráfico com o número de posts publicados com uma palavra-chave específica.
+Essa aba permite que o usuário do Science Pulse delimite um intervalo de tempo e veja as hashtags mais usadas e os usuários mais ativos neste período, além de gerar um gráfico com o número de posts que contenha uma palavra-chave específica neste mesmo intervalo.
 
 ### ABA PROFILES
 
