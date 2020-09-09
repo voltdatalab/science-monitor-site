@@ -20,7 +20,7 @@ h3 { color: #231f20; font-size: 1.2em; margin: 40px 0 10px; }
 
 h4 { color: #c7254e; font-size: 1em; font-weight: 700; margin-bottom: 0px; }
 
-h5 { font-size: 1.3em; font-weight: 400; line-height: 1.5em; }
+h5 { font-size: 1.1em; font-weight: 400; line-height: 1.5em; }
 
 p { font-size: 16px; line-height: 1.5em; margin-bottom: 20px; }
 
@@ -137,7 +137,11 @@ header .header-content .header-content-inner p { font-weight: 400; color: #231f2
 
 #contact .fa { color: #d91c5c; font-size: 2.5em; }
 
-input { background: #d91c5c !important; border: none; padding: 7px 5px; width: 50%; }
+input { background: #f4f4f4 !important; border: 1px solid #d91c5c; padding: 7px 5px; width: 100%; margin: 0 auto; }
+
+label { text-transform: uppercase; color: #666; margin-bottom: 3px; margin-top: 12px; }
+
+input#submit { background: #f4f4f4 !important; }
 
 ::-moz-selection { color: white; text-shadow: none; background: #231f20; }
 
