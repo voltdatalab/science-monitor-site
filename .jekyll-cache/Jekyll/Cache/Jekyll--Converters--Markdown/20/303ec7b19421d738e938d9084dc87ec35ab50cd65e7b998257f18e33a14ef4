@@ -1,0 +1,18 @@
+I"W<style>
+ul{
+margin-top: 60px;
+}
+</style>
+
+<ul>
+  <li>
+    <p><a href="/news">Para voltar a assinar nossos relatórios, clique aqui</a></p>
+  </li>
+  <li>
+    <p><a href="/app">Para acessar a ferramenta do Science Pulse, clique aqui</a></p>
+  </li>
+  <li>
+    <p><a href="/privacidade">Leia nossa Política de Privacidade</a></p>
+  </li>
+</ul>
+:ET

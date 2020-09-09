@@ -1,0 +1,18 @@
+I"$<style>
+ul{
+margin-top: 60px;
+}
+</style>
+
+<ul>
+  <li>
+    <p><a href="/news">To sign up to other reports, click here</a></p>
+  </li>
+  <li>
+    <p><a href="/app">Access the Science Pulse tool here</a></p>
+  </li>
+  <li>
+    <p><a href="/privacy">Read our Privacy Policy</a></p>
+  </li>
+</ul>
+:ET
