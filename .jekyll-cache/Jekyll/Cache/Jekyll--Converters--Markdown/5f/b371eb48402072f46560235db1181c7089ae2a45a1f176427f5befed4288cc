@@ -1,0 +1,46 @@
+I"�<style>
+ul{
+margin-top: 60px;
+}
+</style>
+
+<ul>
+  <li>
+    <p><a href="/news">To sign up to other reports, click here</a></p>
+  </li>
+  <li>
+    <p><a href="/app">Access the Science Pulse tool here</a></p>
+  </li>
+  <li>
+    <p><a href="/privacy">Read our Privacy Policy</a></p>
+  </li>
+</ul>
+
+<p>Obrigado por assinar a newsletter semanal do Science Pulse</p>
+
+<p>Cancelamento de assinatura da newsletter semanal do Science Pulse</p>
+
+<p>This email is a confirmation that the address [Email] is now unsubscribed from Science Pulse daily reports.</p>
+
+<p>If you reconsider to join us again, this is the link to do so: https://sciencepulse.org/reports</p>
+
+<hr />
+
+<p>Best regards,</p>
+
+<p>Science Pulse Team</p>
+
+<p>[resubscribe] </p>
+
+<p>This email is a confirmation that the address [Email] is now subscribed from Science Pulse daily reports.</p>
+
+<p>You can unsubscribe at any time. </p>
+
+<hr />
+
+<p>Best regards,</p>
+
+<p>Science Pulse Team</p>
+
+<p>[unsubscribe]</p>
+:ET

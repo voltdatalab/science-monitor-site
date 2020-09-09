@@ -68,6 +68,7 @@ social_description: "Stay tuned for news about us, reports and more."
     <section id="rauchbier" class="tab-panel">
       <h2>Daily dispatches</h2>
       <h4>Coming soon, subscribe now and be the first to receive it</h4><br>
+      <p><em>This is an automated newsletter, generated daily by a template that uses our algorithm. It is out every <strong>Friday morning</strong> with the highlights of the week.</em></p>
       <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
         	<label for="name">Name</label><br/>
         	<input type="text" name="name" id="name"/>
@@ -90,7 +91,7 @@ social_description: "Stay tuned for news about us, reports and more."
         <hr>
         <h2>Weekly dispatches</h2>
         <h4>Coming soon, subscribe now and be the first to receive it</h4><br>
-        <p><em>This is an automated newsletter, generate weekly by a template that uses our algorithm. It is out every <strong>Friday morning</strong> with the highlights of the week.</em></p>
+        <p><em>This is an automated newsletter, generated weekly by a template that uses our algorithm. It is out every <strong>Friday morning</strong> with the highlights of the week.</em></p>
         <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
           <label for="name">Name</label><br/>
           <input type="text" name="name" id="name"/>
