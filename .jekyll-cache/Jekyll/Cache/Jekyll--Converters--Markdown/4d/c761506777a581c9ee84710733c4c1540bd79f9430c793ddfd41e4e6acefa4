@@ -1,35 +1,49 @@
----
-layout: pages
-title: Pulse - Newsletter
-description: "Stay tuned for news about us, reports and more."
-social_description: "Stay tuned for news about us, reports and more."
----
-
-<div class="tabset">
+I"<div class="tabset">
   <!-- Tab 1 -->
-  <input type="radio" name="tabset" id="tab1" aria-controls="pt" checked>
-  <label for="tab1">Português</label>
+  <input type="radio" name="tabset" id="tab1" aria-controls="pt" checked="" />
+  <label for="tab1">Relatórios em português</label>
   <!-- Tab 2 -->
-  <input type="radio" name="tabset" id="tab2" aria-controls="en">
-  <label for="tab2">English</label>
+  <input type="radio" name="tabset" id="tab2" aria-controls="en" />
+  <label for="tab2">Reports in English</label>
 
   <div class="tab-panels">
     <section id="marzen" class="tab-panel">
-      <h2>Newsletter em português</h2>
+      <h2>Despachos diários</h2>
+      <p><em>Essa é uma newsletter automatizada, gerada diariamente por em um template que utiliza nosso algoritmo. O envio é feito <strong>todo dia na manhã</strong> para nossa lista de assinantes.</em></p>
       <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
-      	<label for="name">Nome</label><br/>
-      	<input type="text" name="name" id="name"/>
-      	<br/>
-      	<label for="email">Email</label><br/>
-      	<input type="email" name="email" id="email"/><br/><div style="display:none;">
-      	<label for="hp">HP</label><br/>
-      	<input type="text" name="hp" id="hp"/>
-      	</div>
-      	<input type="hidden" name="list" value="5TonLbm3gUgEIfhUtKpeZw"/>
-      	<input type="hidden" name="subform" value="yes"/><br>
-      	<input class="botao" type="submit" name="submit" id="submit" value="Assinar" style="background-color:#fff !important;border:1px solid #231f20;color:#231f20"/>
-      </form>
-      <br/>
+	<label for="name">Nome</label><br />
+	<input type="text" name="name" id="name" />
+	<br />
+	<label for="email">Email</label><br />
+	<input type="email" name="email" id="email" /><br /><div style="display:none;">
+	<label for="hp">HP</label><br />
+	<input type="text" name="hp" id="hp" />
+	</div>
+	<input type="hidden" name="list" value="sD763KrVjKu94WXNws4KSxTA" />
+	<input type="hidden" name="subform" value="yes" /><br />
+	<input value="Assinar news diária" type="submit" name="submit" id="submit" style="background-color:#fff !important;border:1px solid #231f20;color:#231f20" />
+</form>
+      <br />
+      <hr />
+
+      <h2>Despachos semanais</h2>
+      <p><em>Essa é uma newsletter automatizada, gerada diariamente por em um template que utiliza nosso algoritmo. O envio é feito às <strong>sextas-feiras</strong> pela manhã para nossa lista de assinantes.</em></p>
+          <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
+          <label for="name">Nome</label><br />
+          <input type="text" name="name" id="name" />
+          <br />
+          <label for="email">Email</label><br />
+          <input type="email" name="email" id="email" /><br /><div style="display:none;">
+          <label for="hp">HP</label><br />
+          <input type="text" name="hp" id="hp" />
+          </div>
+          <input type="hidden" name="list" value="lYHUHr1fq763EEbC2dY7uQvw" />
+          <input type="hidden" name="subform" value="yes" /> <br />
+          <input value="Assinar news semanal" type="submit" name="submit" id="submit" style="background-color:#fff !important;border:1px solid #231f20;color:#231f20" />
+        </form>
+
+      <br />
+      <hr />
       <p>O uso de seus dados é regido pelo nossa <a href="privacidade">política de privacidade</a>.</p>
       <p>Veja abaixo os principais pontos cobertos por essa política:</p>
       <ul>
@@ -40,22 +54,34 @@ social_description: "Stay tuned for news about us, reports and more."
       <li>Fazemos um compromisso de tratar sua informação com zelo, dentro dos nossos poderes.</li>
       </ul>
   </section>
+
+
     <section id="rauchbier" class="tab-panel">
       <h2>Newsletter in English</h2>
       <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
-        	<label for="name">Name</label><br/>
-        	<input type="text" name="name" id="name"/>
-        	<br/>
-        	<label for="email">Email</label><br/>
-        	<input type="email" name="email" id="email"/><br/><div style="display:none;">
-        	<label for="hp">HP</label><br/>
-        	<input type="text" name="hp" id="hp"/>
-        	</div>
-        	<input type="hidden" name="list" value="6djKUj7CbeJC4AEVZqGRLQ"/>
-        	<input type="hidden" name="subform" value="yes"/><br>
-        	<input class = "botao" type="submit" name="submit" id="submit" style="background-color:#fff !important;border:1px solid #231f20;color:#231f20"/>
+        	<label for="name">Name</label><br />
+        	<input type="text" name="name" id="name" />
+        	<br />
+          <form action="http://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
+          	<label for="name">Name</label><br />
+          	<input type="text" name="name" id="name" />
+          	<br />
+          	<label for="email">Email</label><br />
+          	<input type="email" name="email" id="email" /><br /><div style="display:none;">
+          	<label for="hp">HP</label><br />
+          	<input type="text" name="hp" id="hp" />
+          	</div>
+          	<input type="hidden" name="list" value="lMNIGTXZUpp9VPB8923fmqsQ" />
+          	<input type="hidden" name="subform" value="yes" />
+          	<input value="Subscribe to daily news" type="submit" name="submit" id="submit" style="background-color:#fff !important;border:1px solid #231f20;color:#231f20" />
         </form>
-        <br>
+
+        <br />
+        <hr />
+
+
+        <br />
+        <hr />
         <p>You can check how we will use this information in our <a href="privacidade">privacy policy page</a>.</p>
         <p>Below you can read the main topics of our privacy policy:</p>
         <ul>
@@ -65,10 +91,10 @@ social_description: "Stay tuned for news about us, reports and more."
         <li>We might integrate your email to other newsletters owned by Volt Data Lab, for strategic reasons;</li>
         <li>We promise, within our power, to treat your information with zeal.</li>
         </ul>
-    </section>
-  </div>
+    &lt;/section&gt;
+  &lt;/div&gt;
 
-</div>
+&lt;/div&gt;
 
 <style>
 .tabset > input[type="radio"] {
@@ -92,6 +118,7 @@ social_description: "Stay tuned for news about us, reports and more."
 .tabset > label {
   position: relative;
   display: inline-block;
+  max-width: 210px;
   padding: 5px 15px 20px;
   border: 0px solid transparent;
   border-bottom: 0;
@@ -132,3 +159,5 @@ social_description: "Stay tuned for news about us, reports and more."
   border-top: 1px solid #d91c5c;
 }
 </style>
+</form></section></div></div>
+:ET

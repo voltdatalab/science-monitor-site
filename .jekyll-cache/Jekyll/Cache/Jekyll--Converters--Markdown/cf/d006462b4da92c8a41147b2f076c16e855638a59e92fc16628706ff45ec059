@@ -1,18 +1,9 @@
----
-layout: pages
-title: About Science Pulse
-last_update: "September 9, 2020"
-description: "In very few words: <strong>Science Pulse</strong> is a social listening tool designed to bridge the gap between journalists and scientists within social media platforms. The main goal is to help journalists find trending scientific content."
-social_description: "We are a social listening tool designed to bridge the gap between journalists and scientists on social media."
-main_img: '{{ site.baseurl }}/img/header_red.jpeg'
----
-
-<div class="tabset">
+I"�"<div class="tabset">
   <!-- Tab 1 -->
-  <input type="radio" name="tabset" id="tab1" aria-controls="pt" checked>
+  <input type="radio" name="tabset" id="tab1" aria-controls="pt" checked="" />
   <label for="tab1">Sobre o projeto</label>
   <!-- Tab 2 -->
-  <input type="radio" name="tabset" id="tab2" aria-controls="en">
+  <input type="radio" name="tabset" id="tab2" aria-controls="en" />
   <label for="tab2">About us</label>
 
   <div class="tab-panels">
@@ -24,9 +15,9 @@ main_img: '{{ site.baseurl }}/img/header_red.jpeg'
     <small>Você pode encontrar nossa política de privacidade <a href="../privacidade">neste link</a>.</small>
     <small>Leia a metodologia <a href="../metodologia">aqui</a> (apenas em inglês, por enquanto).</small>
 
-    <p><a href="https://www.icfj.org/" target="_blank"><img src="https://sciencepulse.org/img/icfj.png" alt="logo ICFJ" width="160px" style="padding-right:8px"></a>
-    <a href="https://www.voltdata.info/" target="_blank"><img src="https://sciencepulse.org/img/volt.png" alt="logo Volt" width="120px"></a>&nbsp;&nbsp;&nbsp;
-    <a href="https://abori.com.br/" target="_blank"><img src="https://sciencepulse.org/img/agenciabori.png" alt="logo Bori" width="60px"></a></p>
+    <p><a href="https://www.icfj.org/" target="_blank"><img src="https://sciencepulse.org/img/icfj.png" alt="logo ICFJ" width="160px" style="padding-right:8px" /></a>
+    <a href="https://www.voltdata.info/" target="_blank"><img src="https://sciencepulse.org/img/volt.png" alt="logo Volt" width="120px" /></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://abori.com.br/" target="_blank"><img src="https://sciencepulse.org/img/agenciabori.png" alt="logo Bori" width="60px" /></a></p>
 
 <h3>POR QUE ISSO É RELEVANTE?</h3>
 <p>Cientistas e jornalistas possuem uma história de colaboração. Mas, em um momento no qual as mídias sociais criam suas próprias bolhas, difíceis de superar, às vezes uma ponte é necessária entre as conversas acontecendo dos dois lados. Jornalistas podem se beneficiar muito de saber o que cientistas e especialistas estão compartilhando em redes sociais.</p>
@@ -42,9 +33,9 @@ main_img: '{{ site.baseurl }}/img/header_red.jpeg'
       <small>You can find our privacy policy and license <a href="../privacy">in this link</a>.</small>
       <small>Read about the methodology <a href="../methodology">here</a>.</small>
 
-      <p><a href="https://www.icfj.org/" target="_blank"><img src="https://sciencepulse.org/img/icfj.png" alt="logo ICFJ" width="160px" style="padding-right:8px"></a>
-      <a href="https://www.voltdata.info/" target="_blank"><img src="https://sciencepulse.org/img/volt.png" alt="logo Volt" width="120px"></a>&nbsp;&nbsp;&nbsp;
-      <a href="https://abori.com.br/" target="_blank"><img src="https://sciencepulse.org/img/agenciabori.png" alt="logo Bori" width="60px"></a></p>
+      <p><a href="https://www.icfj.org/" target="_blank"><img src="https://sciencepulse.org/img/icfj.png" alt="logo ICFJ" width="160px" style="padding-right:8px" /></a>
+      <a href="https://www.voltdata.info/" target="_blank"><img src="https://sciencepulse.org/img/volt.png" alt="logo Volt" width="120px" /></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://abori.com.br/" target="_blank"><img src="https://sciencepulse.org/img/agenciabori.png" alt="logo Bori" width="60px" /></a></p>
 
       <h3 id="why-is-this-relevant-">WHY IS THIS RELEVANT?</h3>
       <p>Scientists and journalists have a longstanding record of collaboration. But, as social media creates its own hard-to burst bubbles, sometimes a bridge is necessary to bring awareness about each other&#39;s conversations. Journalists can benefit a lot from knowing what scientists and experts are sharing on social media.</p>
@@ -56,38 +47,37 @@ main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 
 </div>
 
-<hr>
+<hr />
 
-### TEAM/EQUIPE
+<h3 id="teamequipe">TEAM/EQUIPE</h3>
 
-#### Sérgio Spagnuolo
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/sergiospagnuolo) - [sergio@voltdata.info](mailto:sergio@voltdata.info) || [sspagnuolo@icfj.org](mailto:sspagnuolo@icfj.org)<br>
-ICFJ Knight Fellow and managing editor at Volt Data Lab
+<h4 id="sérgio-spagnuolo">Sérgio Spagnuolo</h4>
+<p><a href="https://twitter.com/sergiospagnuolo"><i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i></a> - <a href="mailto:sergio@voltdata.info">sergio@voltdata.info</a> || <a href="mailto:sspagnuolo@icfj.org">sspagnuolo@icfj.org</a><br />
+ICFJ Knight Fellow for 2020/2021 and editor at Volt Data Lab</p>
 
-#### Lucas Gelape
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/lgelape) - [lucas@voltdata.info](mailto:lucas@voltdata.info)<br>
-Data analyst at Volt Data Lab
+<h4 id="lucas-gelape">Lucas Gelape</h4>
+<p><a href="https://twitter.com/lgelape"><i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i></a> - <a href="mailto:lucas@voltdata.info">lucas@voltdata.info</a><br />
+Data analyst at Volt Data Lab</p>
 
-#### Renata Hirota
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/renata_mh) - [renata@voltdata.info](mailto:renata@voltdata.info)<br>
-Data journalist at Volt Data Lab
+<h4 id="rodolfo-almeida">Rodolfo Almeida</h4>
+<p><a href="https://twitter.com/rodolfoalmd"><i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i></a> - <a href="mailto:info@voltdata.info">info@voltdata.info</a><br />
+Designer</p>
 
-#### Felippe Mercurio
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/ztock) - [felippe@voltdata.info](mailto:felippe@voltdata.info)<br>
-Database manager at Volt Data Lab
+<h4 id="renata-hirota">Renata Hirota</h4>
+<p><a href="https://twitter.com/renata_mh"><i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i></a> - <a href="mailto:renata@voltdata.info">renata@voltdata.info</a><br />
+Data journalist at Volt Data Lab</p>
 
-#### Jade Drummond
-[jade@voltdata.info](mailto:jade@voltdata.info)<br>
-Journalist at Volt Data Lab
+<h4 id="felippe-mercurio">Felippe Mercurio</h4>
+<p><a href="https://twitter.com/ztock"><i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i></a> - <a href="mailto:felippe@voltdata.info">felippe@voltdata.info</a><br />
+Database manager at Volt Data Lab</p>
 
-#### Rodolfo Almeida
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/rodolfoalmd) - [info@voltdata.info](mailto:info@voltdata.info)<br>
-Designer
+<h4 id="jade-drummond">Jade Drummond</h4>
+<p><a href="https://twitter.com/ztock"><i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i></a> - <a href="mailto:jade@voltdata.info">jade@voltdata.info</a><br />
+Journalist at Volt Data Lab</p>
 
-#### Lucas Lago
-[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/lucaslago) - [news@voltdata.info](mailto:news@voltdata.info)<br>
-Twitter bot creator
-
+<h4 id="lucas-lago">Lucas Lago</h4>
+<p><a href="https://twitter.com/ztock"><i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i></a> - <a href="mailto:news@voltdata.info">news@voltdata.info</a><br />
+Bot creator at Volt Data Lab</p>
 
 <style>
 .tabset > input[type="radio"] {
@@ -151,3 +141,5 @@ Twitter bot creator
   border-top: 1px solid #d91c5c;
 }
 </style>
+
+:ET
