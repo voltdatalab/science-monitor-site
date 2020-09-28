@@ -1,0 +1,19 @@
+I"`<style>
+h4{
+text-align:center;
+margin-top: 60px
+}
+</style>
+
+<ul>
+  <li>
+    <p><a href="/news">Para assinar outros relatórios, clique aqui</a></p>
+  </li>
+  <li>
+    <p><a href="/app">Para acessar a ferramenta do Science Pulse, clique aqui</a></p>
+  </li>
+  <li>
+    <p><a href="/privacidade">Leia nossa Política de Privacidade</a></p>
+  </li>
+</ul>
+:ET

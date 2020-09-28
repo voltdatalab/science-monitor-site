@@ -12,8 +12,8 @@ margin-top: 60px
 }
 </style>
 
-#### [Para assinar outros relatórios, clique aqui](reports)
+* [Para assinar outros relatórios, clique aqui]({{ baseurl }}/news)
 
-#### [Para acessar a ferramenta do Science Pulse, clique aqui](app)
+* [Para acessar a ferramenta do Science Pulse, clique aqui]({{ baseurl }}/app)
 
-#### [Leia nossa Política de Privacidade](../privacidade)
+* [Leia nossa Política de Privacidade]({{ baseurl }}/privacidade)

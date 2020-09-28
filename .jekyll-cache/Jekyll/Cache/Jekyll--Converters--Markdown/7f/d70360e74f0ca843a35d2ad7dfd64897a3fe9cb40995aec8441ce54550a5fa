@@ -1,0 +1,19 @@
+I"6<style>
+h4{
+text-align:center;
+margin-top: 60px
+}
+</style>
+
+<ul>
+  <li>
+    <p><a href="/news">To sign up to other reports, click here</a></p>
+  </li>
+  <li>
+    <p><a href="/app">Access the Science Pulse tool here</a></p>
+  </li>
+  <li>
+    <p><a href="/privacy">Read our Privacy Policy</a></p>
+  </li>
+</ul>
+:ET
