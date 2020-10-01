@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: Welcome to our weekly dispatch
-description: "Your email was successfully subscribed to our weekly report, sent every Friday morning"
+description: "Your email was successfully subscribed to our weekly report, sent every Friday afternoon"
 social_description: "Your email was successfully subscribed to our report"
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: pages
 title: Assinatura feita com sucesso - despacho semanal
-description: "Seu email agora está cadastrado para receber relatórios semanais automatizados do Science Pulse, enviados às sextas-feiras pela manhã"
-social_description: "Seu email agora está cadastrado para receber relatórios semanais automatizados do Science Pulse, enviados às sextas-feiras pela manhã"
+description: "Seu email agora está cadastrado para receber relatórios semanais automatizados do Science Pulse, enviados às sextas-feiras pela tarde"
+social_description: "Seu email agora está cadastrado para receber relatórios semanais automatizados do Science Pulse, enviados às sextas-feiras pela tarde"
 ---
 
 <style>
