@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: Methodology
-last_update: "August 17, 2020"
+last_update: "November 30, 2020"
 description: "How Science Pulse works."
 social_description: "How Science Pulse works"
 main_img: '{{ site.baseurl }}/img/header_red.jpeg'
@@ -14,6 +14,7 @@ _[Leia a metodologia em português](metodologia)_
 ## ABOUT THE DATA
 
 ### PROFILE COLLECTION
+
 All the profiles of scientists, experts, physicians, organisations and scientific initiatives were compiled by Science Pulse's development team through a number of methods. We found those profiles mostly through three ways:
 
 1. A crowdsourcing, where people were invited to suggest a profile;
@@ -34,7 +35,7 @@ We are still working on modules to include other social media platforms.
 
 ### TWITTER TRENDS TAB
 
-All our trends consider only tweets published in the last 12-hours by our listed profiles. They consider both authored tweets and retweets as separate posts.
+All of our trends consider only tweets published in the last 12-hours by our listed profiles. They consider both authored tweets and retweets as separate posts.
 
 Trending tweets are separated into three groups for each language:
 
@@ -46,7 +47,7 @@ Trending tweets are separated into three groups for each language:
 
 ### EXPLORE TWEETS TAB
 
-The explore tabs digs deeper into our databases. It contains four sets of information on tweets posted in the last 12 hours and they are also filtered by language:
+The **EXPLORE** tabs digs deeper into our databases. It contains four sets of information on tweets posted in the last 12 hours and they are also filtered by language:
 
 1. **Active Users**: the users who have tweeted the most over this period;
 
@@ -60,7 +61,7 @@ The explore tabs digs deeper into our databases. It contains four sets of inform
 
 ### COVID-19 TWEETS TAB
 
-The Covid-19 tab filters tweets in the last 12 hours by keywords related to Covid-19. Thus, it shows trends focused on pandemic-related issues. The metrics used here are same for the **Active users** and **Hashtags** from the Explore tab - with the caveat that we exclude common hashtags, such as [#COVID-19](https://twitter.com/hashtag/covid19), and the **Popular within pulse**, **Rising in popularity** and **Popular among scientists** from the Trends tab.
+The **COVID-19** tab filters tweets in the last 12 hours by keywords related to Covid-19. Thus, it shows trends focused on pandemic-related issues. The metrics used here are same for the **Active users** and **Hashtags** from the Explore tab - with the caveat that we exclude common hashtags, such as [#COVID-19](https://twitter.com/hashtag/covid19), and the **Popular within pulse**, **Rising in popularity** and **Popular among scientists** from the Trends tab.
 
 These are the keywords we apply as filters: "Covid", "covid", "Coronavirus", "coronavirus",
                     "Corona", "corona", "SARS-CoV-2", "Sars-CoV-2",
@@ -73,8 +74,8 @@ These are the keywords we apply as filters: "Covid", "covid", "Coronavirus", "co
                     
 ### SEARCH TWEETS TAB
 
-In the **Search** tab, users can search from tweets over tha last 30 days, according to different filters, such as user-defined keywords, date range, verified profiles, retweets or replies.
+In the **SEARCH** tab, users can search from tweets over tha last 30 days, according to different filters, such as user-defined keywords, date range, verified profiles, retweets or replies.
 
 ### PROFILES TWEETS TAB
 
-In the Profiles tab, we list all members from the group of scientists, institutions, researchers and experts curated by Science Pulse. To help users discover new and reliable sources of scientific information, the Find New Experts table shows a random sample of five accounts which have a number of followers smaller than the median number of followers from the profiles in our sample.
+In the **PROFILES** tab, we list all members from the group of scientists, institutions, researchers and experts curated by Science Pulse. To help users discover new and reliable sources of scientific information, the Find New Experts table shows a random sample of five accounts which have a number of followers smaller than the median number of followers from the profiles in our sample.
