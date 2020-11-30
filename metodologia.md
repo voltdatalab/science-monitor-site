@@ -41,12 +41,11 @@ Todas as nossas tendências consideram apenas tweets publicados ou recompartilha
 
 Nossa aba principal de tendências é separada em três grupos para cada idioma:
 
-1. **Popular within pulse**: lista tweets de autoria de perfis monitorados pelo Science Pulse que tenham o maior número de retweets de toda a população de usuários (contagem de RTs), no momento da última coleta de dados.
+1. **Popular within pulse**: lista tweets de autoria de perfis monitorados pelo Science Pulse que tenham o maior número de retweets de toda a população de usuários (contagem de RTs), no momento da última coleta de dados. Usuários podem escolher duas opções para visualização: *Enhance Discovery* mostra tweets de usuários que estejam abaixo da mediana do número de seguidores dentre os perfis listados no Science Pulse, e *Focus on Popularity* mostra tweets de todos os perfis da base de dados.
 
-2. **Popular among scientists**: mostra as publicações mais retuitadas pelos perfis monitorados pelo Science Pulse. Toda vez que um perfil que monitoramos compartilha um tweet, ele conta como um (n = 1). As publicações melhor ranqueadas possuem o maior número de retweets dentro dessa amostragem, assim identificando os tweets que conseguiram mais atenção entre os perfis monitorados pelo Science Pulse. Por exemplo: se 15 perfis em nosso banco de dados compartilharam este  [tweet da OMS](https://twitter.com/WHO/status/1275349898209173505), ele possui um taxa de compartilhamento de 15.
+2. **Rising in popularity**: ranqueia os cinco tweets com maior proporção de RTs por seguidores (RT:followers) publicados por membros da lista do Science Pulse (apenas se tiverem mais de 10 retweets). Essa lista mostra posts que tiveram engajamento significativo (com base em RTs), levando em conta o alcance (número de seguidores) do perfil que a escreveu. Se um tweet tiver 200 RTs e seu autor tiver 400 seguidores, o tweet possui uma razão de 0,5 RT:seguidores.
 
-3. **Rising in popularity**: ranqueia os cinco tweets com maior proporção de RTs por seguidores (RT:followers) publicados por membros da lista do Science Pulse (apenas se tiverem mais de 10 retweets). Essa lista mostra posts que tiveram engajamento significativo (com base em RTs), levando em conta o alcance (número de seguidores) do perfil que a escreveu. Se um tweet tiver 200 RTs e seu autor tiver 400 seguidores, o tweet possui uma razão de 0,5 RT:seguidores.
-
+3. **Discover more**: mostra uma lista de 5 tweets aleatórios que tiveram mais que um RT (por usuários de toda a rede social) e são de autoria de perfis listados no Science Pulse. Ao clicar no ícone "Get New Tweets" o usuário sorteia uma nova lista com 5 tweets aleatórios.
 
 ### ABA EXPLORE TWEETS
 
@@ -60,9 +59,12 @@ Essa aba serve para maior exploração do banco de dados do Science Pulse. Ela c
 
 4. **Pulse radar**: este conjunto de dados representa uma amostra aleatória de cinco tweets do grupo 2 (descrito acima). Os tweets apresentados nesta coluna podem coincidir com aqueles do conjunto anterior, mas ela proporciona ao usuário maiores chances de encontrar conteúdo científico interessante e que não alcançou os trends.
 
+5. **Popular among scientists**: mostra as publicações mais retuitadas pelos perfis monitorados pelo Science Pulse. Toda vez que um perfil que monitoramos compartilha um tweet, ele conta como um (n = 1). As publicações melhor ranqueadas possuem o maior número de retweets dentro dessa amostragem, assim identificando os tweets que conseguiram mais atenção entre os perfis monitorados pelo Science Pulse. Por exemplo: se 15 perfis em nosso banco de dados compartilharam este  [tweet da OMS](https://twitter.com/WHO/status/1275349898209173505), ele possui um taxa de compartilhamento de 15.
+
+
 ### COVID-19 TWEETS TAB
 
-A aba COVID-19 filtra tweets nas últimas 12 horas por palavras-chave relacionadas à pandemia. As métricas utilizadas são as mesmas para usuários ativos e hashtags da aba EXPLORE - com a exclusão de hashtags mais recorrentes, como [#COVID-19](https://twitter.com/hashtag/covid19) - e das colunas da aba TRENDS.  
+A aba **COVID-19** filtra tweets nas últimas 12 horas por palavras-chave relacionadas à pandemia. As métricas utilizadas são as mesmas para usuários ativos e hashtags da aba EXPLORE - com a exclusão de hashtags mais recorrentes, como [#COVID-19](https://twitter.com/hashtag/covid19) - e das colunas da aba TRENDS.  
 
 Essas são as palavras-chave aplicadas como filtro: "Covid", "covid", "Coronavirus", "coronavirus",
                     "Corona", "corona", "SARS-CoV-2", "Sars-CoV-2",
@@ -70,12 +72,13 @@ Essas são as palavras-chave aplicadas como filtro: "Covid", "covid", "Coronavir
                     "pandemia", "WHO", "OMS", "quarantine", "social distancing",
                     "quarentena", "isolamento social", "distanciamento social",
                     "mascara", "mask", "distanciamiento social", "spread", "asymptomatic",
-                    "epidemic", "outbreak", "epidemia", "vacina", "vaccine", "wuhan", "Wuhan"
+                    "epidemic", "outbreak", "epidemia", "vacina", "vaccine", "wuhan", "Wuhan",
+                    "herd immunity", "imunidade de rebanho", "imunidade coletiva".
 
-### ABA POPULARITY
+### ABA SEARCH
 
-Essa aba permite que o usuário do Science Pulse delimite um intervalo de tempo e veja as hashtags mais usadas e os usuários mais ativos neste período, além de gerar um gráfico com o número de posts que contenha uma palavra-chave específica neste mesmo intervalo.
+Na aba **SEARCH**, usuários podem pesquisar tweets dos últimos 30 dias de acordo com diferentes filtros, como algumas palavras-chave, intervalo de datas, perfis verificados, retweets ou replies. 
 
 ### ABA PROFILES
 
-Na aba PROFILES, listamos todos os perfis que compõe a curadoria do Science Pulse, entre cientistas, instituições, pesquisadores e especialistas. Para ajudar usuários a descobrir novas fontes de informação científica, a tabela Find New Experts retorna uma amostra aleatória de cinco perfis que possuam o número de usuários menor do que a mediana de seguidores dos perfis em nosso banco de dados.
+Na aba **PROFILES**, listamos todos os perfis que compõe a curadoria do Science Pulse, entre cientistas, instituições, pesquisadores e especialistas. Para ajudar usuários a descobrir novas fontes de informação científica, a tabela Find New Experts retorna uma amostra aleatória de cinco perfis que possuam o número de usuários menor do que a mediana de seguidores dos perfis em nosso banco de dados.
