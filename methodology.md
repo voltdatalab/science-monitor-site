@@ -38,11 +38,11 @@ All our trends consider only tweets published in the last 12-hours by our listed
 
 Trending tweets are separated into three groups for each language:
 
-1. **Popular within pulse**: lists tweets authored by Pulse's list members that had the largest number of retweets from the whole population of Twitter users (retweet count), at the moment of the last data collection.
+1. **Popular within pulse**: lists tweets authored by Pulse's list members that had the largest number of retweets from the whole population of Twitter users (retweet count), at the moment of the last data collection. Users can choose from two options: *Enhance Discovery* shows tweets from users who are below the median of the followers count from all profiles listed on Science Pulse; and *Focus on Popularity* shows tweets from all users listed in Science Pulse's database.
 
-2. **Popular among scientists**:  shows the most retweeted posts published in Pulse’s database by the list’s own members. Every time one member shared a tweet, it counts as one. The highest ranked posts had the highest number of retweets inside the sample, thus identifying the tweets that got the most attention by the listed accounts. For example, if 15 profiles in our sample shared this [@WHO tweet](https://twitter.com/WHO/status/1275349898209173505), it has a 15 share rate.
+2. **Rising in popularity**: ranks the five tweets with the highest RT:followers ratio published by Pulse's list members (and only if they had more than 10 retweets). This list displays posts that had a significant engagement (RTs) from Twitter users considering the reach (number of followers) from the profile who wrote it. If a tweet has 200 RT and its author 400 followers, the tweet has a 0.5 RT:followers ratio.
 
-3. **Experts trends**: ranks the five tweets with the highest RT:followers ratio published by Pulse's list members (and only if they had more than 10 retweets). This list displays posts that had a significant engagement (RTs) from Twitter users considering the reach (number of followers) from the profile who wrote it. If a tweet has 200 RT and its author 400 followers, the tweet has a 0.5 RT:followers ratio.
+3. **Discover more**: shows a random list from 5 tweets with more than one retweet and originally authored by profiles listed on Science Pulse. By clicking on "Get New Tweets" users get a new sample from random tweets under the same criteria.
 
 ### EXPLORE TWEETS TAB
 
@@ -56,11 +56,11 @@ The explore tabs digs deeper into our databases. It contains four sets of inform
 
 4. **Pulse radar**: this set shows a random sample of five tweets from the previously described group 2. Tweets can coincide with the previous set, but gives the user a chance to find other interesting content that is not trending.
 
-5. **Other popular tweets**: records the most shared tweets considering the most recent retweet counts of each. In this set, we identify those posts with wide repercussion on Twitter that were also shared by our experts’ and institutions’ list. They count retweets among the whole set of Twitter users, at the time of the most recent share by one of the accounts in our sample. For example, it considers the total RT count for this [tweet by @WHO](https://twitter.com/WHO/status/1275349898209173505) at the time it was shared in the sample (564 RT at 5:15pm GMT -3).
+5. **Popular among scientists**:  shows the most retweeted posts published in Pulse’s database by the list’s own members. Every time one member shared a tweet, it counts as one. The highest ranked posts had the highest number of retweets inside the sample, thus identifying the tweets that got the most attention by the listed accounts. For example, if 15 profiles in our sample shared this [@WHO tweet](https://twitter.com/WHO/status/1275349898209173505), it has a 15 share rate.
 
 ### COVID-19 TWEETS TAB
 
-The Covid-19 tab filters tweets in the last 12 hours by keywords related to Covid-19. Thus, it shows trends focused on pandemic-related issues. The metrics used here are same for the **Active users** and **Hashtags** from the Explore tab - with the caveat that we exclude common hashtags, such as [#COVID-19](https://twitter.com/hashtag/covid19), and the **Popular within pulse**, **Popular among scientists** and **Experts trends** from the Trends tab.
+The Covid-19 tab filters tweets in the last 12 hours by keywords related to Covid-19. Thus, it shows trends focused on pandemic-related issues. The metrics used here are same for the **Active users** and **Hashtags** from the Explore tab - with the caveat that we exclude common hashtags, such as [#COVID-19](https://twitter.com/hashtag/covid19), and the **Popular within pulse**, **Rising in popularity** and **Popular among scientists** from the Trends tab.
 
 These are the keywords we apply as filters: "Covid", "covid", "Coronavirus", "coronavirus",
                     "Corona", "corona", "SARS-CoV-2", "Sars-CoV-2",
@@ -68,11 +68,12 @@ These are the keywords we apply as filters: "Covid", "covid", "Coronavirus", "co
                     "pandemia", "WHO", "OMS", "quarantine", "social distancing",
                     "quarentena", "isolamento social", "distanciamento social",
                     "mascara", "mask", "distanciamiento social", "spread", "asymptomatic",
-                    "epidemic", "outbreak", "epidemia", "vacina", "vaccine", "wuhan", "Wuhan"
+                    "epidemic", "outbreak", "epidemia", "vacina", "vaccine", "wuhan", "Wuhan",
+                    "herd immunity", "imunidade de rebanho", "imunidade coletiva".
+                    
+### SEARCH TWEETS TAB
 
-### POPULARITY TWEETS TAB
-
-The Popularity tab allows the user to check the most posted hashtags and active users in a selected date range, and also plot a graph on the number of posts that included a specific keyword.
+In the **Search** tab, users can search from tweets over tha last 30 days, according to different filters, such as user-defined keywords, date range, verified profiles, retweets or replies.
 
 ### PROFILES TWEETS TAB
 
