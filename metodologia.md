@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: Metodologia
-last_update: "17 de agosto, 2020"
+last_update: "30 de novembro, 2020"
 description: "Como o Science Pulse funciona."
 social_description: "Como o Science Pulse funciona."
 main_img: '{{ site.baseurl }}/img/header_red.jpeg'
