@@ -15,11 +15,11 @@ _[Leia a metodologia em português](metodologia)_
 
 ### PROFILE COLLECTION
 
-All the profiles of scientists, experts, physicians, organisations and scientific initiatives were compiled by Science Pulse's development team through a number of methods. We found those profiles mostly through three ways:
+All the profiles and pages of scientists, experts, physicians, universities, organisations and scientific initiatives were compiled by Science Pulse's development team through a number of methods. We found those profiles mostly through three ways:
 
 1. A crowdsourcing, where people were invited to suggest a profile;
-2. By identifying users with profiles verified by Twitter and checking the profiles that they follow;
-3. Consulting Twitter lists of scientists made by universities and journalists.
+2. By identifying users with profiles verified by Twitter and Facebook, and checking the profiles that they follow;
+3. Consulting Twitter and Facebook lists of scientists made by universities, journalists or other initiatives.
 
 Anyone can suggest a new profile to include in our platform through [this form](https://forms.gle/KHufKHzJxJVdsD7s8).
 
@@ -27,9 +27,11 @@ If you are a scientist or expert with a profile mapped by this tool, you can ask
 
 ### DATA COLLECTION
 
-New posts in social media are collected constantly. For now, we are limiting the display of information for only 30 day-periods at a time. Our database is updated regularly with new tweets and counts, in respect to Twitter's free API limits.
+Currently, we collect data from tweets and Facebook posts.
 
-We are still working on modules to include other social media platforms.
+On Twitter, our database is updated regularly with new tweets and counts, in respect to Twitter's free API limits. Our datasets are updated every 20 minutes, but we limit the display of information for 30 day-periods at a time. 
+
+On Facebook, we restrict data collection to posts published by pages monitored by Science Pulse on Crowd Tangle over the last 24 hours. Moreover, following the terms of use from Crowd Tangle’s API, we do not share or display the datasets from posts. 
 
 ## ABOUT THE ALGORITHM
 
