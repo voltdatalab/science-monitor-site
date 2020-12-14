@@ -13,25 +13,28 @@ _[Read the methodology in English](methodology)_
 
 ## SOBRE OS DADOS
 
-### COLETA DE PERFIS
-Todos os perfis de cientistas, especialistas, médicos, organizações e iniciativas científicas foram compilados pela equipe de desenvolvimento do Science Pulse por uma variedade de métodos. Encontramos esses perfis, principalmente, de três formas:
+### COLETA DE PERFIS E PÁGINAS
+
+Todos os perfis e páginas de cientistas, especialistas, médicos, universidades, organizações e iniciativas científicas foram compilados pela equipe de desenvolvimento do Science Pulse por uma variedade de métodos. Encontramos esses perfis e páginas, principalmente, de três formas:
 
 1. Um crowdsourcing, pelo qual convidamos as pessoas a sugerir perfis;
 
-2. Ao identificar usuários com perfis verificados pelo Twitter e, a partir deles, encontrar novos perfirs a partir de quem seguem;
+2. Ao identificar usuários com perfis verificados pelo Twitter ou Facebook e, a partir deles, encontrar novos perfis/páginas a partir de quem seguem;
 
-3. Consultando listas de Twitter feitas por universidades ou jornalistas.
+3. Consultando listas de Twitter e Facebook feitas por universidades, jornalistas ou outras iniciativas.
 
 Qualquer pessoa pode sugerir um novo perfil para ser incluído em nossa plataforma através [deste formulário](https://forms.gle/KHufKHzJxJVdsD7s8).
 
-Caso seja um cientista ou especialista com o perfil mapeado por esta ferramenta, vou pode solicitar sua exclusão do banco de dados do Science Pulse. Envie um email para [sciencemonitor@icfj.org](mailto:sciencemonitor@icfj.org).
+Caso seja um cientista ou especialista com o perfil mapeado por esta ferramenta, você pode solicitar sua exclusão do banco de dados do Science Pulse. Envie um email para [sciencemonitor@icfj.org](mailto:sciencemonitor@icfj.org).
 
 
 ### COLETA DE DADOS
 
-Novos posts em redes sociais são coletados constantemente. Por enquanto, estamos limitando o número de tweets para apenas períodos de 30 dias. Nosso banco de dados é atualizado regularmente com novos tweets e contagens, respeitando os limites da API gratuita do Twitter.
+Atualmente, coletamos dados de tweets e posts no Facebook.
 
-Ainda estamos trabalhando em módulos para incluir outras plataformas de redes sociais.
+No Twitter, nosso banco de dados é atualizado regularmente com novos tweets e contagens, respeitando os limites da API gratuita. Nossa coleta é atualizada a cada 20 minutos, mas disponibilizamos somente postagens dos últimos 30 dias.
+
+No Facebook, restringimos a coleta de dados aos posts realizados pelas páginas monitoradas nas últimas 24 horas. Além disso, seguindo as regras de uso da API do Crowd Tangle, não disponibilizamos a íntegra dos bancos de dados de posts coletados.
 
 ## SOBRE O ALGORITMO
 
