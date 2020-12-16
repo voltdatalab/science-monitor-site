@@ -1,0 +1,153 @@
+---
+layout: pages
+title: About Science Pulse
+last_update: "September 9, 2020"
+description: "In very few words: <strong>Science Pulse</strong> is a social listening tool designed to bridge the gap between journalists and scientists within social media platforms. The main goal is to help journalists find trending scientific content."
+social_description: "We are a social listening tool designed to bridge the gap between journalists and scientists on social media."
+main_img: '{{ site.baseurl }}/img/header_red.jpeg'
+---
+
+<div class="tabset">
+  <!-- Tab 1 -->
+  <input type="radio" name="tabset" id="tab1" aria-controls="pt" checked>
+  <label for="tab1">Sobre o projeto</label>
+  <!-- Tab 2 -->
+  <input type="radio" name="tabset" id="tab2" aria-controls="en">
+  <label for="tab2">About us</label>
+
+  <div class="tab-panels">
+    <section id="marzen" class="tab-panel">
+
+
+    <p>O <strong>Science Pulse</strong> é um projeto liderado pelo ICFJ Knight Fellow Sérgio Spagnuolo em colaboração com o <a href="https://voltdata.info">Volt Data Lab</a>, agência de dados fundada por ele em São Paulo. O projeto é apoiado pelo <a href="https://icfj.org">Centro Internacional para Jornalistas (ICFJ)</a> e pela agência de jornalismo científico <a href="https://abori.com.br/">Bori</a>.</p>
+
+    <small>Você pode encontrar nossa política de privacidade <a href="../privacidade">neste link</a>.</small>
+    <small>Leia a metodologia <a href="../metodologia">aqui</a>.</small>
+
+    <p><a href="https://www.icfj.org/" target="_blank"><img src="https://sciencepulse.org/img/icfj.png" alt="logo ICFJ" width="160px" style="padding-right:8px"></a>
+    <a href="https://www.voltdata.info/" target="_blank"><img src="https://sciencepulse.org/img/volt.png" alt="logo Volt" width="120px"></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://abori.com.br/" target="_blank"><img src="https://sciencepulse.org/img/agenciabori.png" alt="logo Bori" width="60px"></a></p>
+
+<h3>POR QUE ISSO É RELEVANTE?</h3>
+<p>Cientistas e jornalistas possuem uma história de colaboração. Mas, em um momento no qual as mídias sociais criam suas próprias bolhas, difíceis de superar, às vezes uma ponte é necessária entre as conversas acontecendo dos dois lados. Jornalistas podem se beneficiar muito de saber o que cientistas e especialistas estão compartilhando em redes sociais.</p>
+<p>O <strong>Science Pulse</strong> quer ser esta ponte. Em uma época na qual o conhecimento científico está em grande demanda, há também grandes desafios acerca de como pesquisas e trabalhos acadêmicos e resultados preliminares são comunicados. Dados, conclusões e decisões podem mudar rapidamente.</p>
+<p>Além disso, é difícil acompanhar tudo o que se passa nas redes sociais hoje em dia, e mais difícil ainda seguir centenas ou milhares de novos perfis, mesmo que estejamos interessados no que eles têm a dizer. E, mesmo seguindo todos esses novos perfis, boa parte das mensagens que eles vão passar ficarão perdidas entre outras publicações.</p>
+<p>É por isso que decidimos fazer uma ferramenta que pode aumentar a descoberta em torno da conversa científica que acontece agora nas redes sociais, especialmente no contexto da pandemia de coronavírus. É uma forma de aumentar nosso conhecimento, assim como filtrar boa parte do ruído. Daremos espaço para cientistas e especialistas, muitos dos quais são brilhantes em seus campos, mas que não se destacam nas redes sociais. </p>
+
+
+  </section>
+    <section id="rauchbier" class="tab-panel">
+      <p><strong>Science Pulse</strong> is a project led by ICFJ Knight Fellow Sérgio Spagnuolo in collaboration with <a href="https://voltdata.info">Volt Data Lab</a>, a data-driven news agency he founded in Sao Paulo, Brazil. It is supported by the <a href="https://icfj.org">International Center for Journalists (ICFJ)</a> and by the Brazilian science journalism agency <a href="https://abori.com.br/">Bori</a>.</p>
+
+      <small>You can find our privacy policy and license <a href="../privacy">in this link</a>.</small>
+      <small>Read about the methodology <a href="../methodology">here</a>.</small>
+
+      <p><a href="https://www.icfj.org/" target="_blank"><img src="https://sciencepulse.org/img/icfj.png" alt="logo ICFJ" width="160px" style="padding-right:8px"></a>
+      <a href="https://www.voltdata.info/" target="_blank"><img src="https://sciencepulse.org/img/volt.png" alt="logo Volt" width="120px"></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://abori.com.br/" target="_blank"><img src="https://sciencepulse.org/img/agenciabori.png" alt="logo Bori" width="60px"></a></p>
+
+      <h3 id="why-is-this-relevant-">WHY IS THIS RELEVANT?</h3>
+      <p>Scientists and journalists have a longstanding record of collaboration. But, as social media creates its own hard-to burst bubbles, sometimes a bridge is necessary to bring awareness about each other&#39;s conversations. Journalists can benefit a lot from knowing what scientists and experts are sharing on social media.</p>
+      <p>The <strong>Science Pulse</strong> wants to be that bridge. In a time where scientific knowledge is in great demand, there are also great challenges around the way academic papers and preliminary conclusions are communicated. Data, conclusions and decisions can change fast.</p>
+      <p>It is hard to keep up with all social media has to offer nowadays, and even harder to follow hundreds of new people, even if you are interested in what they have to say. And even if you do follow them, some messages will be buried amongst hundreds of other posts and trending topics.</p>
+      <p>That is why we decided to make a tool to increase the discovery around the scientific conversation on social media, especially regarding the coronavirus pandemic. It is a way to increase knowledge but also leave some noise out of social media. We will give room for people that are brilliant in their fields, but might not have thousands of followers to engage.</p>
+    </section>
+  </div>
+
+</div>
+
+<hr>
+
+### TEAM/EQUIPE
+
+#### Sérgio Spagnuolo
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/sergiospagnuolo) - [sergio@voltdata.info](mailto:sergio@voltdata.info) || [sspagnuolo@icfj.org](mailto:sspagnuolo@icfj.org)<br>
+ICFJ Knight Fellow and managing editor at Volt Data Lab
+
+#### Lucas Gelape
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/lgelape) - [lucas@voltdata.info](mailto:lucas@voltdata.info)<br>
+Data analyst at Volt Data Lab
+
+#### Renata Hirota
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/renata_mh) - [renata@voltdata.info](mailto:renata@voltdata.info)<br>
+Data journalist at Volt Data Lab
+
+#### Felippe Mercurio
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/ztock) - [felippe@voltdata.info](mailto:felippe@voltdata.info)<br>
+Database manager at Volt Data Lab
+
+#### Jade Drummond
+[jade@voltdata.info](mailto:jade@voltdata.info)<br>
+Journalist at Volt Data Lab
+
+#### Rodolfo Almeida
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/rodolfoalmd) - [info@voltdata.info](mailto:info@voltdata.info)<br>
+Designer
+
+#### Lucas Lago
+[<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>](https://twitter.com/lucaslago) - [news@voltdata.info](mailto:news@voltdata.info)<br>
+Twitter bot creator
+
+
+<style>
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 5px 15px 20px;
+  border: 0px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background: #f4f4f4;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+  color: #1cd999;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: #1cd999;
+}
+
+.tabset > input:checked + label {
+  border-color: #000;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+
+.tab-panel {
+  padding: 30px 0 5px;
+  border-top: 1px solid #d91c5c;
+}
+</style>
