@@ -9,8 +9,6 @@ main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 
 _You can get the core code for the application [in this link](https://github.com/voltdatalab/science-pulse-public). With time, we will make more elements available._
 
-_[Leia a metodologia em português](metodologia)_
-
 ## ABOUT THE DATA
 
 ### PROFILE COLLECTION

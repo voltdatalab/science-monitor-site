@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: paginas
 title: Política de Privacidade
 description: "Termos sobre o uso de suas informações pessoais pelo Science Pulse e pelo Volt Data Lab."
 social_description: "Termos sobre o uso de suas informações pessoais pelo Science Pulse e pelo Volt Data Lab."

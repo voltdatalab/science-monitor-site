@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: paginas
 title: Metodologia
 last_update: "17 de agosto, 2020"
 description: "Como o Science Pulse funciona."
@@ -8,8 +8,6 @@ main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 ---
 
 _Você pode acessar nosso código aberto desta aplicação [neste link](https://github.com/voltdatalab/science-pulse-public)._
-
-_[Read the methodology in English](methodology)_
 
 ## SOBRE OS DADOS
 
