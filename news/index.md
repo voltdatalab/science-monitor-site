@@ -11,13 +11,13 @@ social_description: "Newsletters automatizadas diretamente para sua caixa de ema
   <label for="tab1">Relatórios em português</label>
   <!-- Tab 2 -->
   <input type="radio" name="tabset" id="tab2" aria-controls="en">
-  <label for="tab2">Reports in English</label>
+  <label for="tab2">Relatórios em Inglês</label>
 
   <div class="tab-panels">
     <section id="marzen" class="tab-panel">
       <h2>Despacho Diário</h2>
       <form action="https://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
-          <p>Todos os dias pela manhã, saiba os principais posts que a comunidade científica compartilhou nas últimas 24 horas no Twitter.</p>
+          <p>Todos os dias pela manhã, saiba os principais posts <strong>em português</strong> que a comunidade científica compartilhou nas últimas 24 horas no Twitter.</p>
         	<label for="name">Nome</label><br/>
         	<input type="text" name="name" id="name"/>
         	<br/>
@@ -35,7 +35,7 @@ social_description: "Newsletters automatizadas diretamente para sua caixa de ema
 
       <h2>Despacho Semanal</h2>
           <form action="https://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
-          <p>Todas as sextas-feiras à tarde, saiba os principais posts que a comunidade científica compartilhou nos últimos 7 dias no Twitter.</p>
+          <p>Todas as sextas-feiras à tarde, saiba os principais posts <strong>em português</strong> que a comunidade científica compartilhou nos últimos 7 dias no Twitter.</p>
           <label for="name">Nome</label><br/>
           <input type="text" name="name" id="name"/>
           <br/>
@@ -50,24 +50,14 @@ social_description: "Newsletters automatizadas diretamente para sua caixa de ema
         </form>
 
       <br/>
-      <hr>
-      <p>O uso de seus dados é regido pelo nossa <a href="privacidade">política de privacidade</a>.</p>
-      <p>Veja abaixo os principais pontos cobertos por essa política:</p>
-      <ul>
-      <li>Caso você escolha assinar nossa newsletter, seu email será usado somente para comunicação enviada pelo Science Pulse ou pelo Volt Data Lab;</li>
-      <li>Nós não venderemos seu endereço de email para ninguém, mas reservamos o direito de compartilhá-lo com certos parceiros de nossa confiança;</li>
-      <li>Não enviaremos, de forma nenhuma, spam ou conteúdo nocivo para você;</li>
-      <li>Por questões estratégicas, podemos integrar seu email a outras newsletters do Volt Data Lab. Você será avisado disso;</li>
-      <li>Fazemos um compromisso de tratar sua informação com zelo.</li>
-      </ul>
   </section>
 
 
     <section id="rauchbier" class="tab-panel">
-      <h2>Daily Dispatch</h2>
+      <h2>Despacho Diário em inglês</h2>
           <form action="https://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
-            <p>Early in the morning, know what the scientific community shared in Twitter in the last 24 hours.</p>
-          	<label for="name">Name</label><br/>
+            <p>Todos os dias pela manhã, saiba os principais posts <strong>em inglês</strong> que a comunidade científica compartilhou nas últimas 24 horas no Twitter.</p>
+          	<label for="name">Nome</label><br/>
           	<input type="text" name="name" id="name"/>
           	<br/>
           	<label for="email">Email</label><br/>
@@ -77,15 +67,15 @@ social_description: "Newsletters automatizadas diretamente para sua caixa de ema
           	</div>
           	<input type="hidden" name="list" value="LJskW892Ny5Dr1oE4qSOepVw"/>
           	<input type="hidden" name="subform" value="yes"/> <br>
-          	<input value="Subscribe to daily news" type="submit" name="submit" id="submit" style="background-color:#d91c5c !important;border:0px dashed #231f20;color:#fff"/>
+          	<input value="Assinar diária em inglês" type="submit" name="submit" id="submit" style="background-color:#d91c5c !important;border:0px dashed #231f20;color:#fff"/>
         </form>
 
         <br/>
         <hr>
-        <h2>Weekly Dispatch</h2>
+        <h2>Despacho Semanal em inglês</h2>
         <form action="https://sendy.voltdata.info/subscribe" method="POST" accept-charset="utf-8">
-          <p>Every Friday, know what the scientific community shared in Twitter in the last 7 days.</p>
-          <label for="name">Name</label><br/>
+          <p>Todas as sextas-feiras à tarde, saiba os principais posts <strong>em inglês</strong> que a comunidade científica compartilhou nos últimos 7 dias no Twitter.</p>
+          <label for="name">Nome</label><br/>
           <input type="text" name="name" id="name"/>
           <br/>
           <label for="email">Email</label><br/>
@@ -95,24 +85,26 @@ social_description: "Newsletters automatizadas diretamente para sua caixa de ema
           </div>
           <input type="hidden" name="list" value="ILmTZixssZ25zGmYWPztSg"/>
           <input type="hidden" name="subform" value="yes"/><br>
-          <input value="Subscribe to weekly news" type="submit" name="submit" id="submit" style="background-color:#d91c5c !important;border:0px dashed #231f20;color:#fff"/>
+          <input value="Assinar semanal em inglês" type="submit" name="submit" id="submit" style="background-color:#d91c5c !important;border:0px dashed #231f20;color:#fff"/>
           </form>
 
         <br>
-        <hr>
-            <p>You can check how we will use this information in our <a href="privacidade">privacy policy page</a>.</p>
-            <p>Below you can read the main topics of our privacy policy:</p>
-        <ul>
-            <li>If you choose to subscribe to our newsletter, your email will only be used for communication sent by the Science Pulse or Volt Data Lab;</li>
-            <li>We will not sell your email information to anyone, but we could share your email address with trusted partners;</li>
-            <li>We will not send you spam or harmful content;</li>
-            <li>We might integrate your email to other newsletters owned by Volt Data Lab, for strategic reasons;</li>
-            <li>We promise, within our power, to treat your information with zeal.</li>
-        </ul>
     </section>
   </div>
 
 </div>
+
+* * *
+
+O uso de seus dados é regido pelo nossa [política de privacidade](../privacidade).
+
+Veja abaixo os principais pontos cobertos por essa política:
+
+*   Caso você escolha assinar nossa newsletter, seu email será usado somente para comunicação enviada pelo Science Pulse ou pelo Volt Data Lab;
+*   Nós não venderemos seu endereço de email para ninguém, mas reservamos o direito de compartilhá-lo com certos parceiros de nossa confiança;
+*   Não enviaremos, de forma nenhuma, spam ou conteúdo nocivo para você;
+*   Por questões estratégicas, podemos integrar seu email a outras newsletters do Volt Data Lab. Você será avisado disso;
+*   Fazemos um compromisso de tratar sua informação com zelo.
 
 <style>
   form{

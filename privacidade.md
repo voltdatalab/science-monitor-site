@@ -3,7 +3,7 @@ layout: paginas
 title: Política de Privacidade
 description: "Termos sobre o uso de suas informações pessoais pelo Science Pulse e pelo Volt Data Lab."
 social_description: "Termos sobre o uso de suas informações pessoais pelo Science Pulse e pelo Volt Data Lab."
-last_update: "19 de junho de 2020"
+last_update: "17 de dezembro de 2020"
 ---
 
 _Nesta página você encontra nossa política de privacidade detalhada e a licença de nosso produto_
@@ -46,31 +46,23 @@ Caso queira evitar isso, você pode utilizar navegadores que bloqueiam esse tipo
 
 <hr>
 
-_(em fase de tradução)_
+### Política de Privacidade
 
-### Privacy Policy
+A VOLTDATA AGENCIAMENTO DE NOTICIAS LTDA, nome fantasia [Volt Data Lab](https://nucleo.jor.br/www.voltdata.info), é uma agência de jornalismo orientado por dados baseada em São Paulo e a empresa por trás do Science Pulse, inscrita sob o CNPJ 37.307.891/0001-33.
 
-[Volt Data Lab](www.voltdata.info), a small project-based company based in São Paulo, Brasil, built the Science Pulse app as an [Open Source app](https://github.com/voltdatalab/science_monitor-public). This SERVICE is provided by Volt Data Lab at no cost and is intended for use as is.
+É possível entrar em contato conosco via o email <info@voltdata.info>. O Volt Data Lab tem como único acionista o jornalista [Sérgio Spagnuolo](https://www.linkedin.com/in/sergiospagnuolo/).
 
-You can reach Volt Data Lab at [info@voltdata.info](mailto:info@voltdata.info).
+Esta página é utilizada para informa visitantes sobre nossas políticas de coleta e uso de informações pessoas caso qualquer pessoa decida utilizar nossos serviços ou produtos.
 
-Volt Data Lab is fully owned by the journalist [Sérgio Spagnuolo](https://www.linkedin.com/in/sergiospagnuolo/).
+Caso você escolha utilizar nossos serviços, então concorda com os termos de coleta e uso de informação em relação a esta política. As informações pessoais que coletamos são utilizadas para fornecer e melhorar nossos produtos e serviços. Nós não vamos compartilhar suas informações com ninguém além das partes descritas nessa Política de Privacidade.
 
-Volt Data Lab is currently changing its legal denominations with Brazilian fiscal authorities, and we will share public information as soon as all documentation is ready.
+#### Coleta e uso de informações
 
-This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+Para uma melhor experiência, enquanto o cliente utilizar nossos produtos e serviços, podemos pedir para que você nos forneça algumas informações pessoais, incluindo, mas não limitado a, seu nome e email. A informação que solicitarmos será retida por nós e utilizada conforme descrição nessa Política de Privacidade. Sempre nos esforçamos para evitar coleta de dados pessoais ou coletar o mínimo de informações possível para fornecer nossos produtos e serviços.
 
-If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+Este site utiliza alguns serviços de terceiros que podem coletar informações pessoais dos usuários.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Science Pulse unless otherwise defined in this Privacy Policy.
-
-**Information Collection and Use**
-
-For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to email. The information that we request will be retained by us and used as described in this privacy policy.
-
-The app does use third party services that may collect information used to identify you.
-
-Link to privacy policy of third party service providers used by the app
+Veja os termos de privacidade dos serviços que utilizamos:
 
 *   [Facebook](https://www.facebook.com/about/privacy/update/printable)
 *   [Rstudio/Shinyapp](https://rstudio.com/about/privacy-policy/)
@@ -79,59 +71,52 @@ Link to privacy policy of third party service providers used by the app
 *   [Twitter](https://twitter.com/en/privacy)
 *   [Hotjar](https://www.hotjar.com/legal/policies/privacy/)
 
-**Log Data**
+#### Log de dados
 
-We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
+Nosso website não armazena dados pessoais sobre você, mas é monitorado via Google Analytics, para que possamos medir e analisar nossa audiência. Isso é fundamental para entender nossos produtos e serviços.
 
-**Cookies**
+Dados coletados sobre newsletters via Sendy são armazenados em servidores da Amazon Webservices (AWS).
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+Outros dados pessoas, como os coletados em formulários, podem ser armazenados em servidores da AWS ou do Google, dependendo da nossa necessidade.
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+#### Cookies
 
-**Service Providers**
+"Cookies" são arquivos com uma pequena quantidade de dados, frequentemente utilizados como identificadores anônimos de usuários únicos. Eles são enviados pelo seu navegador a partir dos sites que você visita, e são armazenados na memória interna de seu dispositivo.
 
-We may employ third-party companies and individuals due to the following reasons:
+Este site não utiliza "cookies" deliberadamente. No entanto, o aplicativo pode usar recursos e serviços de terceiros que, estes sim, utilizam "cookies" para coletar informações e melhorar seus serviços. Por enquanto, você não possui a opção de ou aceitar ou recusar estes "cookies" de terceiros no nosso site.
 
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
+#### Serviços de terceiros
 
-We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+Podemos utilizar tecnologias de terceiros pelos seguintes motivos:
 
-**Security**
+-   Para facilitar ou melhorar nossos produtos e serviços;
+-   Para monitorar o tráfego em nosso site;
+-   Para monitorar o uso de nossos servidores;
+-   Para coletar emails e dados para newsletters e outros serviços;
+-   Para analisar como nossos produtos e serviços são usados;
 
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+É comum que tecnologias de terceiros sejam capazes de acessar e armazenar algumas de suas informações pessoais. Este site utiliza apenas serviços que declaram, em seus próprios Termos de Uso, a não compartilhar informações pessoais que possam identificar você pessoalmente a outras partes sem o seu consentimento.
 
-**Links to Other Sites**
+#### Segurança
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+Nós valorizamos a confiança que você nos deposita ao nos ceder suas informações pessoais, e portanto nos comprometemos, na melhor de nossas capacidades, a usar de todos os meios que dispomos para proteger essas informações, utilizando-as da forma mais responsável, mesmo que comercialmente.
 
-**Children’s Privacy**
+Lembre-se apenas que nenhum método de transmissão de informações é 100% seguro e confiável via internet, e não podemos garantir a segurança absoluta de suas informações pessoais, especialmente quando se trata de serviços prestados por tecnologias de terceiros.
 
-These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13\. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
+#### Links para outros sites
 
-**Changes to This Privacy Policy**
+Este site frequentemente contém links para outros site. Caso você clique em um desses links, você será direcionado para esse site terceiro. Note que estes sites externos não são operados por nós, nem temos como validar as práticas de coleta e uso de dados adotadas por eles. Dessa forma, recomendamos fortemente que vocês leiam as Políticas de Privacidade desses sites, se é que possuem. Não temos controle sobre esses sites nem assumimos quaisquer responsabilidades pelo conteúdo, políticas de privacidade ou práticas que eles adotem.
 
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
+#### Privacidade de crianças
 
-This policy is effective as of 2020-06-19
+Embora não seja um site que publique conteúdo sensível (como pornografia ou violência explícita), este site não é intencionado para coleta de dados de menores de 16 anos. Nós conscientemente não coletamos informações pessoais identificáveis de crianças abaixo de 16 anos. Caso chegue a nosso conhecimento que uma criança abaixo de 16 anos nos forneceu informações pessoais, imediatamente deletaremos essa informação de nossos servidores. Caso você seja um pai ou guardião legal e está ciente que seu filho menor de 16 anos nos forneceu alguma informação pessoal, por favor entre em contato conosco para que possamos tomar as ações necessárias.
 
-**Contact Us**
+#### Mudanças nesta Política de Privacidade
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [info@voltdata.info](mailto:info@voltdata.info).
+Podemos atualizar nossa Política de Privacidade periodicamente. Assim, aconselhamos que você revise esta página de tempos em tempos para quaisquer mudanças.
 
-This privacy policy page was created at [privacypolicytemplate.net](https://privacypolicytemplate.net) and modified/generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.firebaseapp.com/). Volt Data Lab made changes to the templates to better adjust our transparency.
+Esta Política de Privacidade foi atualizada pela última vez em 17/12/2020.
 
-<hr>
+#### Contato
 
-### LICENSE (The MIT License)
-
-Copyright 2020 Volt Data Lab
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Caso tenha perguntas sobre nossa Política de Privacidade ou outro assuntos, não hesite em nos contatar em <info@voltdata.info>.
