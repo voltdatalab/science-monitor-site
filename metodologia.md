@@ -36,9 +36,9 @@ No Facebook, restringimos a coleta de dados aos posts com performance superior a
 
 ## SOBRE O ALGORITMO
 
-### DADOS DE TWITTER 
+## DADOS DE TWITTER 
 
-## TENDÊNCIAS
+### TENDÊNCIAS
 
 Todas as nossas tendências consideram apenas tweets publicados ou recompartilhados nas últimas 12 horas pelos perfis que seguimos.
 
@@ -50,7 +50,7 @@ Nossa aba principal de tendências é separada em três grupos para cada idioma:
 
 3. **Descubra mais**: mostra uma lista de 5 tweets aleatórios que tiveram mais que um RT (por usuários de toda a rede social) e são de autoria de perfis listados no Science Pulse. Ao clicar no ícone "Mostrar novos tweets" o usuário sorteia uma nova lista com 5 tweets aleatórios.
 
-## DESCUBRA MAIS 
+### DESCUBRA MAIS 
 
 Essa aba serve para maior exploração do banco de dados de tweets do Science Pulse. Ela contém quatro conjuntos de informações sobre tweets publicados nas últimas 12 horas, também filtrados por idioma:
 
@@ -86,9 +86,9 @@ Na aba Perfis Acompanhados, listamos todos os perfis que compõe a curadoria do 
 
 Na aba Busca por Tweets, usuários podem pesquisar tweets dos últimos 90 dias de acordo com diferentes filtros, como algumas palavras-chave, intervalo de datas, perfis verificados, retweets ou replies. 
 
-### DADOS DE FACEBOOK
+## DADOS DE FACEBOOK
 
-## POSTS POPULARES
+### POSTS POPULARES
 
 Essa seção é composta por posts de Facebook com performance superior ao esperado (*overperforming*) feitas nas últimas 24 horas. Ela apresenta duas colunas com posts em destaque nas páginas seguidas pelo Science Pulse, a partir de dados do [Crowd Tangle](https://www.crowdtangle.com/), além de uma coluna com a possibilidade do usuário explorar outros posts nas páginas monitoradas pela nossa ferramenta. 
 
