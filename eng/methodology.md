@@ -33,9 +33,9 @@ On Facebook, we restrict data collection to overperforming posts published by pa
 
 ## ABOUT THE ALGORITHM
 
-### TWITTER DATA
+## TWITTER DATA
 
-### TRENDS
+# TRENDS
 
 All of our trends consider only tweets published in the last 12-hours by our listed profiles. They consider both authored tweets and retweets as separate posts.
 
@@ -47,7 +47,7 @@ Trending tweets are separated into three groups for each language:
 
 3. **Discover more**: shows a random list of 5 tweets with more than one retweet and originally authored by profiles listed on Science Pulse. By clicking on "Get new tweets" users get a new sample from random tweets under the same criteria.
 
-### DISCOVER MORE
+# DISCOVER MORE
 
 The Discover More tab digs deeper into our databases. It contains four sets of information on tweets posted in the last 12 hours and they are also filtered by language:
 
@@ -61,7 +61,7 @@ The Discover More tab digs deeper into our databases. It contains four sets of i
 
 5. **Popular among scientists**:  shows the most retweeted posts published in Pulse’s database by the list’s own members. Every time one member shared a tweet, it counts as one. The highest ranked posts had the highest number of retweets inside the sample, thus identifying the tweets that got the most attention by the listed accounts. For example, if 15 profiles in our sample shared this [@WHO tweet](https://twitter.com/WHO/status/1275349898209173505), it has a 15 share rate.
 
-### COVID-19 SPECIAL
+# COVID-19 SPECIAL
 
 The **COVID-19 SPECIAL** tab filters tweets in the last 12 hours by keywords related to Covid-19. Thus, it shows trends focused on pandemic-related issues. The metrics used here are same for the **Active users** and **Hashtags** from the Explore tab - with the caveat that we exclude common hashtags, such as [#COVID-19](https://twitter.com/hashtag/covid19), and the **Popular within pulse**, **Rising in popularity** and **Popular among scientists** from the Trends tab.
 
@@ -74,17 +74,17 @@ These are the keywords we apply as filters: "Covid", "covid", "Coronavirus", "co
                     "epidemic", "outbreak", "epidemia", "vacina", "vaccine", "wuhan", "Wuhan",
                     "herd immunity", "imunidade de rebanho", "imunidade coletiva".
 
-### PROFILES
+# PROFILES
 
 In the Profiles tab, we list all members from the group of scientists, institutions, researchers and experts curated by Science Pulse. To help users discover new and reliable sources of scientific information, the *Find New Experts* table shows a random sample of five accounts which have a number of followers smaller than the median number of followers from the profiles in our sample.
 
-### TWEETS SEARCH
+# TWEETS SEARCH
 
 In the Tweets Search tab, users can search from tweets over the last 90 days, according to different filters, such as user-defined keywords, date range, verified profiles, retweets or replies.
 
-### FACEBOOK DATA
+## FACEBOOK DATA
 
-## POPULAR POSTS
+# POPULAR POSTS
 
 This section is made of overperforming Facebook posts over the last 24 hours. It presents two columns with highlighted posts in the pages followed by Science Pulse [Crowd Tangle](https://www.crowdtangle.com/) data and another column where the user can explore other posts from those pages.
 
@@ -96,6 +96,6 @@ The three diplayed groups are:
 
 3. **Discover more**: shows a random list of 5 posts originally authored by pages listed on Science Pulse. By clicking on "Get new posts", users get a new sample from random posts under the same criteria.
 
-### PAGES
+# PAGES
 
 In Pages, we list all Facebook public pages that are currently being monitored by the Science Pulse. This list is made of universities, scientific organizations and research initiatives in Brazil and worldwide. The *Find new pages* column shows a random sample of five pages which have a number of followers smaller than the median number of followers from the pages in our sample.
