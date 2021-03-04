@@ -9,7 +9,7 @@ main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 
 _Você pode acessar nosso código aberto desta aplicação [neste link](https://github.com/voltdatalab/science-pulse-public)._
 
-_For the English-translated version of the methodology [click here](https://sciencepulse.org/eng/methodology)_
+_For the translated version of the methodology [click here](https://sciencepulse.org/eng/methodology)._
 
 ## SOBRE OS DADOS
 
