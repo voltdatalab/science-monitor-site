@@ -1,7 +1,7 @@
 ---
 layout: paginas
 title: Sobre o projeto
-last_update: "16 de dezembro de 2020"
+last_update: "4 de março de 2020"
 description: "Em poucas palavras: o <strong>Science Pulse</strong> é uma ferramenta de social listening desenhada para acompanhar o debate de ciência nas redes sociais."
 social_description: "Somos uma ferramenta que acompanha o debate de ciência nas redes sociais"
 main_img: '{{ site.baseurl }}/img/header_red.jpeg'
@@ -11,7 +11,7 @@ O **Science Pulse** é um projeto liderado pelo ICFJ Knight Fellow Sérgio Spagn
 
 Você pode encontrar nossa política de privacidade [neste link](../privacidade).
 
-Leia a metodologia [aqui](../metodologia) (apenas em inglês, por enquanto).
+Leia a metodologia [aqui](../metodologia).
 
 <p><a href="https://www.icfj.org/" target="_blank"><img src="https://sciencepulse.org/img/icfj.png" alt="logo ICFJ" width="160px" style="padding-right:8px"></a>
 <a href="https://www.voltdata.info/" target="_blank"><img src="https://sciencepulse.org/img/volt.png" alt="logo Volt" width="120px"></a>&nbsp;&nbsp;&nbsp;
