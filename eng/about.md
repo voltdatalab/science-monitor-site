@@ -9,7 +9,7 @@ main_img: '{{ site.baseurl }}/img/header_red.jpeg'
 
 **Science Pulse** is a project led by ICFJ Knight Fellow Sérgio Spagnuolo in collaboration with [Volt Data Lab](https://voltdata.info), a data-driven news agency he founded in Sao Paulo, Brazil. It is supported by the [International Center for Journalists (ICFJ)](https://icfj.org) and by the Brazilian science journalism agency [Bori](https://abori.com.br/).
 
-<small>You can find our privacy policy and license [in this link](../privacy).</small> <small>Read about the methodology [here](../methodology).</small>
+<small>You can find our privacy policy and license [in this link](../privacy).</small> <small>Read about the methodology [here](../eng/methodology).</small>
 
 <p><a href="https://www.icfj.org/" target="_blank"><img src="https://sciencepulse.org/img/icfj.png" alt="logo ICFJ" width="160px" style="padding-right:8px"></a>
 <a href="https://www.voltdata.info/" target="_blank"><img src="https://sciencepulse.org/img/volt.png" alt="logo Volt" width="120px"></a>&nbsp;&nbsp;&nbsp;
