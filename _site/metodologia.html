@@ -125,6 +125,8 @@ gtag('config', 'UA-169741376-1');
       <hr />
   <p><em>Você pode acessar nosso código aberto desta aplicação <a href="https://github.com/voltdatalab/science-pulse-public">neste link</a>.</em></p>
 
+<p><em>For the translated version of the methodology <a href="https://sciencepulse.org/eng/methodology">click here</a>.</em></p>
+
 <h2 id="sobre-os-dados">SOBRE OS DADOS</h2>
 
 <h3 id="coleta-de-perfis-e-páginas">COLETA DE PERFIS E PÁGINAS</h3>
@@ -153,11 +155,13 @@ gtag('config', 'UA-169741376-1');
 
 <p>No Twitter, nosso banco de dados é atualizado regularmente com novos tweets e contagens, respeitando os limites da API gratuita. Nossa coleta é atualizada a cada 20 minutos, mas disponibilizamos somente postagens dos últimos 30 dias.</p>
 
-<p>No Facebook, restringimos a coleta de dados aos posts realizados pelas páginas monitoradas nas últimas 24 horas. Além disso, seguindo as regras de uso da API do Crowd Tangle, não disponibilizamos a íntegra dos bancos de dados de posts coletados.</p>
+<p>No Facebook, restringimos a coleta de dados aos posts com performance superior ao esperado (<em>overperforming</em>) realizados pelas páginas monitoradas nas últimas 24 horas. Além disso, seguindo as regras de uso da API do Crowd Tangle, não disponibilizamos a íntegra dos bancos de dados de posts coletados.</p>
 
 <h2 id="sobre-o-algoritmo">SOBRE O ALGORITMO</h2>
 
-<h3 id="aba-twitter-trends">ABA TWITTER TRENDS</h3>
+<h2 id="dados-de-twitter">DADOS DE TWITTER</h2>
+
+<h3 id="tendências">TENDÊNCIAS</h3>
 
 <p>Todas as nossas tendências consideram apenas tweets publicados ou recompartilhados nas últimas 12 horas pelos perfis que seguimos.</p>
 
@@ -165,7 +169,7 @@ gtag('config', 'UA-169741376-1');
 
 <ol>
   <li>
-    <p><strong>Popular no Pulse</strong>: lista tweets de autoria de perfis monitorados pelo Science Pulse que tenham o maior número de retweets de toda a população de usuários (contagem de RTs), no momento da última coleta de dados. Usuários podem escolher duas opções para visualização: <em>Enhance Discovery</em> mostra tweets de usuários que estejam abaixo da mediana do número de seguidores dentre os perfis listados no Science Pulse, e <em>Focus on Popularity</em> mostra tweets de todos os perfis da base de dados.</p>
+    <p><strong>Popular no Pulse</strong>: lista tweets de autoria de perfis monitorados pelo Science Pulse que tenham o maior número de retweets de toda a população de usuários (contagem de RTs), no momento da última coleta de dados. Usuários podem escolher duas opções para visualização: <em>Descoberta</em> mostra tweets de usuários que estejam abaixo da mediana do número de seguidores dentre os perfis listados no Science Pulse, e <em>Popularidade</em> mostra tweets de todos os perfis da base de dados.</p>
   </li>
   <li>
     <p><strong>Popularidade em alta</strong>: ranqueia os cinco tweets com maior proporção de RTs por seguidores (RT:followers) publicados por membros da lista do Science Pulse (apenas se tiverem mais de 10 retweets). Essa lista mostra posts que tiveram engajamento significativo (com base em RTs), levando em conta o alcance (número de seguidores) do perfil que a escreveu. Se um tweet tiver 200 RTs e seu autor tiver 400 seguidores, o tweet possui uma razão de 0,5 RT:seguidores.</p>
@@ -175,9 +179,54 @@ gtag('config', 'UA-169741376-1');
   </li>
 </ol>
 
-<h3 id="aba-facebook">ABA FACEBOOK</h3>
+<h3 id="descubra-mais">DESCUBRA MAIS</h3>
 
-<p>Essa seção é composta por posts do Facebook feitas nas últimas 24 horas. Ela apresenta duas colunas com posts em destaque nas páginas seguidas pelo Science Pulse, a partir de dados do <a href="https://www.crowdtangle.com/">Crowd Tangle</a>, além de uma coluna com a possibilidade do usuário explorar outros posts nas páginas monitoradas pela nossa ferramenta.</p>
+<p>Essa aba serve para maior exploração do banco de dados de tweets do Science Pulse. Ela contém quatro conjuntos de informações sobre tweets publicados nas últimas 12 horas, também filtrados por idioma:</p>
+
+<ol>
+  <li>
+    <p><strong>Usuários ativos</strong>: os usuários que mais tuitaram no período;</p>
+  </li>
+  <li>
+    <p><strong>Hashtags</strong>: as hashtags mais compartilhadas no mesmo período;</p>
+  </li>
+  <li>
+    <p><strong>Também populares no pulse</strong>: utilizamos um algoritmo de agrupamento (<em>k-means clustering</em>) para classificar esses tweets em quatro grupos, de acordo com sua contagem de retweets com base na última coleta de dados (de 1 a 4, sendo 4 o grupo com mais retweets). Então, consideramos apenas tweets do “grupo 2”, eliminando aquelas que provavelmente são mensagens pessoais e, assim, possuem menos retweets (grupo 1) e aquelas que atingiram o topo dos nossos <em>trending topics</em> (da aba Trends) ou com grande volume orgânico (grupos 3 ou 4). Dentro do grupo 2 é utilizada a mesma métrica da coluna “Popular no Pulse” da aba Tendências.</p>
+  </li>
+  <li>
+    <p><strong>Radar Pulse</strong>: este conjunto de dados representa uma amostra aleatória de cinco tweets do grupo 2 (descrito acima). Os tweets apresentados nesta coluna podem coincidir com aqueles do conjunto anterior, mas ela proporciona ao usuário maiores chances de encontrar conteúdo científico interessante e que não alcançou os trends.</p>
+  </li>
+  <li>
+    <p><strong>Popular entre cientistas</strong>: mostra as publicações mais retuitadas pelos perfis monitorados pelo Science Pulse. Toda vez que um perfil que monitoramos compartilha um tweet, ele conta como um (n = 1). As publicações melhor ranqueadas possuem o maior número de retweets dentro dessa amostragem, assim identificando os tweets que conseguiram mais atenção entre os perfis monitorados pelo Science Pulse. Por exemplo: se 15 perfis em nosso banco de dados compartilharam este  <a href="https://twitter.com/WHO/status/1275349898209173505">tweet da OMS</a>, ele possui um taxa de compartilhamento de 15.</p>
+  </li>
+</ol>
+
+<h3 id="especial-covid-19">ESPECIAL COVID-19</h3>
+
+<p>O <strong>ESPECIAL COVID-19</strong> apresenta tweets em destaque nas últimas 12 horas em posts filtrados por palavras-chave relacionadas à pandemia. As métricas utilizadas são as mesmas para usuários ativos e hashtags da aba Descubra Mais - com a exclusão de hashtags mais recorrentes, como <a href="https://twitter.com/hashtag/covid19">#COVID-19</a> - e das colunas da aba Tendências.</p>
+
+<p>Essas são as palavras-chave aplicadas como filtro: “Covid”, “covid”, “Coronavirus”, “coronavirus”,
+                    “Corona”, “corona”, “SARS-CoV-2”, “Sars-CoV-2”,
+                    “SRAG”, “sindrome”, “syndrome”, “pandemic”,
+                    “pandemia”, “WHO”, “OMS”, “quarantine”, “social distancing”,
+                    “quarentena”, “isolamento social”, “distanciamento social”,
+                    “mascara”, “mask”, “distanciamiento social”, “spread”, “asymptomatic”,
+                    “epidemic”, “outbreak”, “epidemia”, “vacina”, “vaccine”, “wuhan”, “Wuhan”,
+                    “herd immunity”, “imunidade de rebanho”, “imunidade coletiva”.</p>
+
+<h3 id="perfis-acompanhados">PERFIS ACOMPANHADOS</h3>
+
+<p>Na aba Perfis Acompanhados, listamos todos os perfis que compõe a curadoria do Science Pulse, entre cientistas, instituições, pesquisadores e especialistas. Para ajudar usuários a descobrir novas fontes de informação científica, a tabela <em>Encontre novos especialistas</em> retorna uma amostra aleatória de cinco perfis que possuam o número de seguidores menor do que a mediana dessa medida dentre todos os perfis em nosso banco de dados.</p>
+
+<h3 id="aba-busca-por-tweets">ABA BUSCA POR TWEETS</h3>
+
+<p>Na aba Busca por Tweets, usuários podem pesquisar tweets dos últimos 90 dias de acordo com diferentes filtros, como algumas palavras-chave, intervalo de datas, perfis verificados, retweets ou replies.</p>
+
+<h2 id="dados-de-facebook">DADOS DE FACEBOOK</h2>
+
+<h3 id="posts-populares">POSTS POPULARES</h3>
+
+<p>Essa seção é composta por posts de Facebook com performance superior ao esperado (<em>overperforming</em>) feitas nas últimas 24 horas. Ela apresenta duas colunas com posts em destaque nas páginas seguidas pelo Science Pulse, a partir de dados do <a href="https://www.crowdtangle.com/">Crowd Tangle</a>, além de uma coluna com a possibilidade do usuário explorar outros posts nas páginas monitoradas pela nossa ferramenta.</p>
 
 <p>Os três grupos de postagem são:</p>
 
@@ -193,55 +242,12 @@ gtag('config', 'UA-169741376-1');
   </li>
 </ol>
 
-<h3 id="aba-explore">ABA EXPLORE</h3>
-
-<p>Essa aba serve para maior exploração do banco de dados de tweets do Science Pulse. Ela contém quatro conjuntos de informações sobre tweets publicados nas últimas 12 horas, também filtrados por idioma:</p>
-
-<ol>
-  <li>
-    <p><strong>Usuários ativos</strong>: os usuários que mais tuitaram no período;</p>
-  </li>
-  <li>
-    <p><strong>Hashtags</strong>: as hashtags mais compartilhadas no mesmo período;</p>
-  </li>
-  <li>
-    <p><strong>Também populares no pulse</strong>: utilizamos um algoritmo de agrupamento (k-means clustering) para classificar esses tweets em quatro grupos, de acordo com sua contagem de retweets com base na última coleta de dados (de 1 a 4, sendo 4 o grupo com mais retweets). Então, consideramos apenas tweets do “grupo 2”, eliminando aquelas que provavelmente são mensagens pessoais e, assim, possuem menos retweets (grupo 1) e aquelas que atingiram o topo dos nossos trending topics (da aba Trends) ou com grande volume orgânico (grupos 3 ou 4). Dentro do grupo 2 é utilizada a mesma métrica da coluna “Popular within Pulse” na aba Trends.</p>
-  </li>
-  <li>
-    <p><strong>Radar Pulse</strong>: este conjunto de dados representa uma amostra aleatória de cinco tweets do grupo 2 (descrito acima). Os tweets apresentados nesta coluna podem coincidir com aqueles do conjunto anterior, mas ela proporciona ao usuário maiores chances de encontrar conteúdo científico interessante e que não alcançou os trends.</p>
-  </li>
-  <li>
-    <p><strong>Popular entre cientistas</strong>: mostra as publicações mais retuitadas pelos perfis monitorados pelo Science Pulse. Toda vez que um perfil que monitoramos compartilha um tweet, ele conta como um (n = 1). As publicações melhor ranqueadas possuem o maior número de retweets dentro dessa amostragem, assim identificando os tweets que conseguiram mais atenção entre os perfis monitorados pelo Science Pulse. Por exemplo: se 15 perfis em nosso banco de dados compartilharam este  <a href="https://twitter.com/WHO/status/1275349898209173505">tweet da OMS</a>, ele possui um taxa de compartilhamento de 15.</p>
-  </li>
-</ol>
-
-<h3 id="aba-covid-19">ABA COVID-19</h3>
-
-<p>O <strong>ESPECIAL COVID-19</strong> apresenta tweets em destaque nas últimas 12 horas em posts filtrados por palavras-chave relacionadas à pandemia. As métricas utilizadas são as mesmas para usuários ativos e hashtags da aba EXPLORE - com a exclusão de hashtags mais recorrentes, como <a href="https://twitter.com/hashtag/covid19">#COVID-19</a> - e das colunas da aba TRENDS.</p>
-
-<p>Essas são as palavras-chave aplicadas como filtro: “Covid”, “covid”, “Coronavirus”, “coronavirus”,
-                    “Corona”, “corona”, “SARS-CoV-2”, “Sars-CoV-2”,
-                    “SRAG”, “sindrome”, “syndrome”, “pandemic”,
-                    “pandemia”, “WHO”, “OMS”, “quarantine”, “social distancing”,
-                    “quarentena”, “isolamento social”, “distanciamento social”,
-                    “mascara”, “mask”, “distanciamiento social”, “spread”, “asymptomatic”,
-                    “epidemic”, “outbreak”, “epidemia”, “vacina”, “vaccine”, “wuhan”, “Wuhan”,
-                    “herd immunity”, “imunidade de rebanho”, “imunidade coletiva”.</p>
-
-<h3 id="aba-search">ABA SEARCH</h3>
-
-<p>Na aba <strong>SEARCH</strong>, usuários podem pesquisar tweets dos últimos 30 dias de acordo com diferentes filtros, como algumas palavras-chave, intervalo de datas, perfis verificados, retweets ou replies.</p>
-
-<h3 id="aba-profiles">ABA PROFILES</h3>
-
-<p>Na aba <strong>PROFILES</strong>, listamos todos os perfis que compõe a curadoria do Science Pulse, entre cientistas, instituições, pesquisadores e especialistas. Para ajudar usuários a descobrir novas fontes de informação científica, a tabela <em>Encontre novos especialistas</em> retorna uma amostra aleatória de cinco perfis que possuam o número de seguidores menor do que a mediana dessa medida dentre todos os perfis em nosso banco de dados.</p>
-
-<h3 id="aba-páginas-fb">ABA PÁGINAS (FB)</h3>
+<h3 id="aba-páginas-acompanhadas">ABA PÁGINAS ACOMPANHADAS</h3>
 
 <p>Nesta aba, listamos todas as páginas públicas do Facebook que no momento são monitoradas pelo Science Pulse. Esta lista é formada por páginas de universidades, organizações científicas e iniciativas de divulgação de pesquisas brasileiras e internacionais. A coluna <em>Encontre novas páginas</em> mostra uma amostra aleatória de cinco páginas que possuam um número de seguidores menor do que a mediana de todas as páginas em nosso banco de dados.</p>
 
   
-  <em style="text-decoration:overline">Última atualização da página feita em 14 de dezembro, 2020</em>
+  <em style="text-decoration:overline">Última atualização da página feita em 04 de fevereiro, 2020</em>
   
   <br><br>
 </div>
@@ -287,7 +293,7 @@ input{
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text"><a href="license">2020 - Este projeto é open source, distribuído sob a licença MIT.</a>.
+          <p class="copyright-text"><a href="license">2021 - Este projeto é open source, distribuído sob a licença MIT.</a>.
           </p>
           <ul class="social-icons">
             <li><a class="twitter" href="https://twitter.com/thesciencepulse"><i class="fa fa-twitter"></i></a></li>

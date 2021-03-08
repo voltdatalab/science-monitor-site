@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<style>
+iframe{
+  min-height: 100vh;
+}
+</style>
+
+<body>
+  <!--
+  <div class="container" style="margin-top: 70px">
+    <div style="max-width:550px;margin: 30px auto 0">
+  {{ content }}
+</div>
+</div>-->
+          <iframe id="application" src="https://nucleojor.shinyapps.io/experts/" frameborder="no" width="100%" scrolling="yes" allowfullscreen seamless>
+          </iframe>
+
+  <br />
+  {% include scripts.html %}
+</body>
+
+</html>
