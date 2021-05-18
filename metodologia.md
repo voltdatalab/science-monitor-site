@@ -55,7 +55,7 @@ Nossa aba principal de tendências é separada em três grupos para cada idioma:
 
 ### DESCUBRA MAIS 
 
-Essa aba serve para maior exploração do banco de dados de tweets do Science Pulse. Ela contém quatro conjuntos de informações sobre tweets publicados nas últimas 12 horas, também filtrados por idioma:
+Essa aba serve para maior exploração do banco de dados de tweets do Science Pulse. Ela contém cinco conjuntos de informações sobre tweets publicados nas últimas 12 horas, também filtrados por idioma:
 
 1. **Usuários ativos**: os usuários que mais tuitaram no período;
 
@@ -72,14 +72,7 @@ Essa aba serve para maior exploração do banco de dados de tweets do Science Pu
 
 O **ESPECIAL COVID-19** apresenta tweets em destaque nas últimas 12 horas em posts filtrados por palavras-chave relacionadas à pandemia. As métricas utilizadas são as mesmas para usuários ativos e hashtags da aba Descubra Mais - com a exclusão de hashtags mais recorrentes, como [#COVID-19](https://twitter.com/hashtag/covid19) - e das colunas da aba Tendências.  
 
-Essas são as palavras-chave aplicadas como filtro: "Covid", "covid", "Coronavirus", "coronavirus",
-                    "Corona", "corona", "SARS-CoV-2", "Sars-CoV-2",
-                    "SRAG", "sindrome", "syndrome", "pandemic",
-                    "pandemia", "WHO", "OMS", "quarantine", "social distancing",
-                    "quarentena", "isolamento social", "distanciamento social",
-                    "mascara", "mask", "distanciamiento social", "spread", "asymptomatic",
-                    "epidemic", "outbreak", "epidemia", "vacina", "vaccine", "wuhan", "Wuhan",
-                    "herd immunity", "imunidade de rebanho", "imunidade coletiva".
+Essas são as palavras-chave aplicadas como filtro: “Covid”, “covid”, “Coronavirus”, “coronavirus”, “Corona”, “corona”, “SARS-CoV-2”, “Sars-CoV-2”, “SRAG”, “sindrome”, “syndrome”, “pandemic”, “pandemia”, “WHO”, “OMS”, “quarantine”, “social distancing”, “quarentena”, “isolamento social”, “distanciamento social”, “mascara”, “mask”, “distanciamiento social”, “spread”, “asymptomatic”, “epidemic”, “outbreak”, “epidemia”, “vacina”, “vaccine”, “wuhan”, “Wuhan”, “herd immunity”, “imunidade de rebanho”, “imunidade coletiva”, “lockdown”, “blood clot”, “coágulo”, “AstraZeneca”, “Astrazeneca”, “astrazeneca”, “Coronovac”, “CoronoVac”, “coronavac”, “Janssen”, “janssen”, “Sputnik”, “sputnik”, “máscara”, “mascara”, “mask”.
 
 ### PERFIS ACOMPANHADOS
 
