@@ -1,7 +1,7 @@
 ---
 layout: paginas
 title: Metodologia
-last_update: "04 de fevereiro, 2020"
+last_update: "18 de maio, 2021"
 description: "Como o Science Pulse funciona."
 social_description: "Como o Science Pulse funciona."
 main_img: '{{ site.baseurl }}/img/header_red.jpeg'
@@ -46,15 +46,16 @@ Todas as nossas tendências consideram apenas tweets publicados ou recompartilha
 
 Nossa aba principal de tendências é separada em três grupos para cada idioma:
 
-1. **Popular no Pulse**: lista tweets de autoria de perfis monitorados pelo Science Pulse que tenham o maior número de retweets de toda a população de usuários (contagem de RTs), no momento da última coleta de dados. Usuários podem escolher duas opções para visualização: *Descoberta* mostra tweets de usuários que estejam abaixo da mediana do número de seguidores dentre os perfis listados no Science Pulse, e *Popularidade* mostra tweets de todos os perfis da base de dados.
+1. **Isso é tendência**: mostra os tweets com o maior número de interações (likes + RTs) comparados ao que um perfil normalmente possui. Essa medida é desenhada para encontrar conteúdos que se destacam da média de um perfil. Ele é inspirado na [medida de *overperforming* do CrowdTangle](https://help.crowdtangle.com/en/articles/1141056-how-is-overperforming-calculated): estabelecemos uma espécie de penalidade para usuários com menos engajamento, para não permitir que posts com um número muito baixo de interações apareça somente porque o autor possui um baixo número de seguidores.
 
-2. **Popularidade em alta**: ranqueia os cinco tweets com maior proporção de RTs por seguidores (RT:followers) publicados por membros da lista do Science Pulse (apenas se tiverem mais de 10 retweets). Essa lista mostra posts que tiveram engajamento significativo (com base em RTs), levando em conta o alcance (número de seguidores) do perfil que a escreveu. Se um tweet tiver 200 RTs e seu autor tiver 400 seguidores, o tweet possui uma razão de 0,5 RT:seguidores.
+2. **Pegando fogo**: lista tweets de autoria de perfis monitorados pelo Science Pulse que tenham um número substantivo de retweets de toda a população de usuários (contagem de RTs), no momento da última coleta de dados. Usuários podem escolher duas opções para visualização: *Descoberta* ranqueia os cinco tweets com maior proporção de RTs por seguidores (RT:followers) publicados por membros da lista do Science Pulse (apenas se tiverem mais de 1 retweet), e *Popularidade* mostra os tweets com maior número de RTs dentre todos os perfis monitorados. 
 
-3. **Descubra mais**: mostra uma lista de 5 tweets aleatórios que tiveram mais que um RT (por usuários de toda a rede social) e são de autoria de perfis listados no Science Pulse. Ao clicar no ícone "Mostrar novos tweets" o usuário sorteia uma nova lista com 5 tweets aleatórios.
+3. **Radar pulse**: mostra uma lista de 5 tweets aleatórios que tiveram mais que um RT (por usuários de toda a rede social) e são de autoria de perfis listados no Science Pulse. Ao clicar no ícone "Mostrar novos tweets" o usuário sorteia uma nova lista com 5 tweets aleatórios. Essa amostra de 5 tweets é estratificada para *sempre* mostrar dois tweets de especialistas/acadêmicos não-homens.
+
 
 ### DESCUBRA MAIS 
 
-Essa aba serve para maior exploração do banco de dados de tweets do Science Pulse. Ela contém quatro conjuntos de informações sobre tweets publicados nas últimas 12 horas, também filtrados por idioma:
+Essa aba serve para maior exploração do banco de dados de tweets do Science Pulse. Ela contém cinco conjuntos de informações sobre tweets publicados nas últimas 12 horas, também filtrados por idioma:
 
 1. **Usuários ativos**: os usuários que mais tuitaram no período;
 
@@ -71,14 +72,7 @@ Essa aba serve para maior exploração do banco de dados de tweets do Science Pu
 
 O **ESPECIAL COVID-19** apresenta tweets em destaque nas últimas 12 horas em posts filtrados por palavras-chave relacionadas à pandemia. As métricas utilizadas são as mesmas para usuários ativos e hashtags da aba Descubra Mais - com a exclusão de hashtags mais recorrentes, como [#COVID-19](https://twitter.com/hashtag/covid19) - e das colunas da aba Tendências.  
 
-Essas são as palavras-chave aplicadas como filtro: "Covid", "covid", "Coronavirus", "coronavirus",
-                    "Corona", "corona", "SARS-CoV-2", "Sars-CoV-2",
-                    "SRAG", "sindrome", "syndrome", "pandemic",
-                    "pandemia", "WHO", "OMS", "quarantine", "social distancing",
-                    "quarentena", "isolamento social", "distanciamento social",
-                    "mascara", "mask", "distanciamiento social", "spread", "asymptomatic",
-                    "epidemic", "outbreak", "epidemia", "vacina", "vaccine", "wuhan", "Wuhan",
-                    "herd immunity", "imunidade de rebanho", "imunidade coletiva".
+Essas são as palavras-chave aplicadas como filtro: “Covid”, “covid”, “Coronavirus”, “coronavirus”, “Corona”, “corona”, “SARS-CoV-2”, “Sars-CoV-2”, “SRAG”, “sindrome”, “syndrome”, “pandemic”, “pandemia”, “WHO”, “OMS”, “quarantine”, “social distancing”, “quarentena”, “isolamento social”, “distanciamento social”, “mascara”, “mask”, “distanciamiento social”, “spread”, “asymptomatic”, “epidemic”, “outbreak”, “epidemia”, “vacina”, “vaccine”, “wuhan”, “Wuhan”, “herd immunity”, “imunidade de rebanho”, “imunidade coletiva”, “lockdown”, “blood clot”, “coágulo”, “AstraZeneca”, “Astrazeneca”, “astrazeneca”, “Coronovac”, “CoronoVac”, “coronavac”, “Janssen”, “janssen”, “Sputnik”, “sputnik”, “máscara”, “mascara”, “mask”.
 
 ### PERFIS ACOMPANHADOS
 
